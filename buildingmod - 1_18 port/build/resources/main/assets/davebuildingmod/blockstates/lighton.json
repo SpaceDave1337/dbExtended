@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/lighton"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/lighton",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/lighton",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/lighton",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "davebuildingmod:block/lighton",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "davebuildingmod:block/lighton",
+      "x": 90
+    }
+  }
+}

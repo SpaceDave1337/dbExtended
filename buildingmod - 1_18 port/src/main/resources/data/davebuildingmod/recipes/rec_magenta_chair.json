@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "davebuildingmod:magenta_quilted_wool"
+    },
+    "1": {
+      "item": "davebuildingmod:magenta_quilted_wool"
+    },
+    "2": {
+      "tag": "minecraft:planks"
+    },
+    "3": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:magenta_chair",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/halflumber_vertical",
+    "up": "davebuildingmod:blocks/halflumber_vertical",
+    "north": "davebuildingmod:blocks/halflumber_vertical",
+    "east": "davebuildingmod:blocks/halflumber_vertical",
+    "south": "davebuildingmod:blocks/halflumber_vertical",
+    "west": "davebuildingmod:blocks/halflumber_vertical",
+    "particle": "davebuildingmod:blocks/halflumber_vertical"
+  }
+}

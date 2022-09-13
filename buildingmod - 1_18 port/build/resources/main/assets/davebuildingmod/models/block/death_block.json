@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/death_block",
+    "up": "davebuildingmod:blocks/death_block",
+    "north": "davebuildingmod:blocks/death_block",
+    "east": "davebuildingmod:blocks/death_block",
+    "south": "davebuildingmod:blocks/death_block",
+    "west": "davebuildingmod:blocks/death_block",
+    "particle": "davebuildingmod:blocks/death_block"
+  }
+}

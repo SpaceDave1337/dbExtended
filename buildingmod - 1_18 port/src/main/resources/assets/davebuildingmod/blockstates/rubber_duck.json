@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/rubber_duck"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/rubber_duck",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/rubber_duck",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/rubber_duck",
+      "y": 270
+    }
+  }
+}

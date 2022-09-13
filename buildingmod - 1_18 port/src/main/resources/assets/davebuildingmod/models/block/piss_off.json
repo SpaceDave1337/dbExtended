@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/red_stained_glass",
+    "up": "davebuildingmod:blocks/red_stained_glass",
+    "north": "davebuildingmod:blocks/red_stained_glass",
+    "east": "davebuildingmod:blocks/red_stained_glass",
+    "south": "davebuildingmod:blocks/red_stained_glass",
+    "west": "davebuildingmod:blocks/red_stained_glass",
+    "particle": "davebuildingmod:blocks/red_stained_glass"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "davebuildingmod:block/zinc_boiler",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "davebuildingmod:block/zinc_boiler"
+    },
+    "axis=z": {
+      "model": "davebuildingmod:block/zinc_boiler",
+      "x": 90
+    }
+  }
+}

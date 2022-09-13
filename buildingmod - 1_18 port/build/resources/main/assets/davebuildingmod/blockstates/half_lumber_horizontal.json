@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/half_lumber_horizontal"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/half_lumber_horizontal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/half_lumber_horizontal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/half_lumber_horizontal",
+      "y": 270
+    }
+  }
+}

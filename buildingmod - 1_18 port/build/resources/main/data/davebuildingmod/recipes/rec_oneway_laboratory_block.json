@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "davebuildingmod:laboratory_block"
+    },
+    "1": {
+      "item": "davebuildingmod:laboratory_block"
+    },
+    "2": {
+      "item": "davebuildingmod:laboratory_block"
+    },
+    "3": {
+      "item": "minecraft:glass"
+    },
+    "4": {
+      "item": "minecraft:glass"
+    },
+    "5": {
+      "item": "minecraft:glass"
+    },
+    "6": {
+      "item": "davebuildingmod:laboratory_block"
+    },
+    "7": {
+      "item": "davebuildingmod:laboratory_block"
+    },
+    "8": {
+      "item": "davebuildingmod:laboratory_block"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:oneway_laboratory_block",
+    "count": 6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/computer_terminal_steel"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/computer_terminal_steel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/computer_terminal_steel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/computer_terminal_steel",
+      "y": 270
+    }
+  }
+}

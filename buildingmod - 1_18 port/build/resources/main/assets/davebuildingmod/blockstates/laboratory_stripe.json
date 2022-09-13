@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/laboratory_stripe"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/laboratory_stripe",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/laboratory_stripe",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/laboratory_stripe",
+      "y": 270
+    }
+  }
+}

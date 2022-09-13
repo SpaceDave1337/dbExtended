@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/oneway_sign"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/oneway_sign",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/oneway_sign",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/oneway_sign",
+      "y": 270
+    }
+  }
+}

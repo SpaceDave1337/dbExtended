@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "davebuildingmod:laboratory_block"
+    },
+    "3": {
+      "item": "davebuildingmod:laboratory_block"
+    },
+    "4": {
+      "item": "minecraft:iron_bars"
+    },
+    "5": {
+      "item": "davebuildingmod:laboratory_block"
+    },
+    "7": {
+      "item": "davebuildingmod:laboratory_block"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:laboratory_vent",
+    "count": 4
+  }
+}

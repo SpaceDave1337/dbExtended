@@ -1,0 +1,9 @@
+{
+  "parent": "davebuildingmod:custom/exitsign",
+  "textures": {
+    "all": "davebuildingmod:blocks/exithere_sign",
+    "particle": "davebuildingmod:blocks/exithere_sign",
+    "0": "davebuildingmod:blocks/exithere_sign",
+    "1": "davebuildingmod:blocks/anvil"
+  }
+}

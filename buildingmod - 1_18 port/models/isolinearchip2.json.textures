@@ -1,0 +1,25 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "steel_seemless",
+        "1": "light_blue_stained_glass"
+      },
+      "name": "default"
+    },
+    "red": {
+      "map": {
+        "0": "steel_seemless",
+        "1": "red_stained_glass"
+      },
+      "name": "red"
+    },
+    "green": {
+      "map": {
+        "0": "steel_seemless",
+        "1": "lime_stained_glass"
+      },
+      "name": "green"
+    }
+  }
+}

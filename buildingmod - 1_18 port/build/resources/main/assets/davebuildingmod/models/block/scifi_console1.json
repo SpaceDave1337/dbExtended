@@ -1,0 +1,67 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "block/gray_concrete",
+		"3": "block/cyan_terracotta",
+		"4": "block/lectern_top",
+                "particle": "block/cyan_terracotta"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [2, 14, 14, 16], "texture": "#3"},
+				"east": {"uv": [0, 14, 16, 16], "texture": "#3"},
+				"south": {"uv": [2, 14, 14, 16], "texture": "#3"},
+				"west": {"uv": [0, 14, 16, 16], "texture": "#3"},
+				"up": {"uv": [2, 0, 14, 16], "texture": "#3"},
+				"down": {"uv": [2, 0, 14, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [8, 2, 10],
+			"to": [12, 13, 14],
+			"faces": {
+				"north": {"uv": [6, 2, 10, 13], "texture": "#3"},
+				"east": {"uv": [6, 2, 10, 13], "texture": "#3"},
+				"south": {"uv": [6, 2, 10, 13], "texture": "#3"},
+				"west": {"uv": [6, 2, 10, 13], "texture": "#3"}
+			}
+		},
+		{
+			"from": [8, 2, 2],
+			"to": [12, 13, 6],
+			"faces": {
+				"north": {"uv": [6, 2, 10, 13], "texture": "#3"},
+				"east": {"uv": [6, 2, 10, 13], "texture": "#3"},
+				"south": {"uv": [6, 2, 10, 13], "texture": "#3"},
+				"west": {"uv": [6, 2, 10, 13], "texture": "#3"}
+			}
+		},
+		{
+			"from": [0.3, 10.3, 0],
+			"to": [14.3, 13.3, 16],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [7, 12, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 14, 3], "texture": "#2"},
+				"south": {"uv": [0, 0, 14, 3], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 3], "texture": "#2"},
+				"up": {"uv": [0, 1, 16, 15], "rotation": 90, "texture": "#4"},
+				"down": {"uv": [0, 0, 14, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [13, 13, -0.05],
+			"to": [16, 16, 16.05],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 3], "texture": "#2"},
+				"east": {"uv": [0, 0, 16, 3], "texture": "#2"},
+				"south": {"uv": [0, 0, 3, 3], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 3], "texture": "#2"},
+				"up": {"uv": [0, 0, 3, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 3, 16], "texture": "#2"}
+			}
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "davebuildingmod:brown_steel_plating"
+    },
+    "1": {
+      "item": "davebuildingmod:brown_steel_plating"
+    },
+    "2": {
+      "item": "davebuildingmod:brown_steel_plating"
+    },
+    "3": {
+      "item": "davebuildingmod:brown_steel_plating"
+    },
+    "4": {
+      "item": "davebuildingmod:brown_steel_plating"
+    },
+    "5": {
+      "item": "davebuildingmod:brown_steel_plating"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:brown_steel_wall",
+    "count": 6
+  }
+}

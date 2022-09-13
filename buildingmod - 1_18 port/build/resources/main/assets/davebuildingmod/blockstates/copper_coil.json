@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "davebuildingmod:block/copper_coil",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "davebuildingmod:block/copper_coil"
+    },
+    "axis=z": {
+      "model": "davebuildingmod:block/copper_coil",
+      "x": 90
+    }
+  }
+}

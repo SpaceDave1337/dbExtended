@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/laboratory_roman_10"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/laboratory_roman_10",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/laboratory_roman_10",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/laboratory_roman_10",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "white_quilted_wool"
+      },
+      "name": "default"
+    },
+    "black": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "black_quilted_wool"
+      },
+      "name": "black"
+    },
+    "blue": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "blue_quilted_wool"
+      },
+      "name": "blue"
+    },
+    "brown": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "brown_quilted_wool"
+      },
+      "name": "brown"
+    },
+    "cyan": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "cyan_quilted_wool"
+      },
+      "name": "cyan"
+    },
+    "gray": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "gray_quilted_wool"
+      },
+      "name": "gray"
+    },
+    "green": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "green_quilted_wool"
+      },
+      "name": "green"
+    },
+    "light_blue": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "light_blue_quilted_wool"
+      },
+      "name": "light_blue"
+    },
+    "light_gray": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "light_gray_quilted_wool"
+      },
+      "name": "light_gray"
+    },
+    "lime": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "lime_quilted_wool"
+      },
+      "name": "lime"
+    },
+    "magenta": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "magenta_quilted_wool"
+      },
+      "name": "magenta"
+    },
+    "orange": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "orange_quilted_wool"
+      },
+      "name": "orange"
+    },
+    "pink": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "pink_quilted_wool"
+      },
+      "name": "pink"
+    },
+    "purple": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "purple_quilted_wool"
+      },
+      "name": "purple"
+    },
+    "red": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "red_quilted_wool"
+      },
+      "name": "red"
+    },
+    "yellow": {
+      "map": {
+        "0": "stripped_oak_log",
+        "1": "yellow_quilted_wool"
+      },
+      "name": "yellow"
+    }
+  }
+}

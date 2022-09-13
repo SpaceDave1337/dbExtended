@@ -1,0 +1,51 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 120,
+    "height": 16,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Nothing here, sadly...",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "SteelHelperConditionNot"
+          },
+          "name": "Nothing here, sadly...",
+          "x": 159,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "helpbook.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SteelHelperCondition"
+          },
+          "name": "helpbook.png",
+          "x": 141,
+          "y": 26
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "davebuildingmod:steel_plating"
+    },
+    "3": {
+      "item": "davebuildingmod:steel_plating"
+    },
+    "5": {
+      "item": "davebuildingmod:steel_plating"
+    },
+    "7": {
+      "item": "davebuildingmod:steel_plating"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:vent_straight",
+    "count": 8
+  }
+}

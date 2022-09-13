@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:yellow_wool"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:yellow_quilted_wool",
+    "count": 2
+  }
+}

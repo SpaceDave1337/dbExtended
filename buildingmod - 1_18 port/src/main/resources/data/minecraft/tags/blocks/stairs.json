@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "davebuildingmod:orange_steel_stairs",
+    "davebuildingmod:black_steel_stairs",
+    "davebuildingmod:light_gray_steel_stairs",
+    "davebuildingmod:steel_stairs",
+    "davebuildingmod:pink_steel_stairs",
+    "davebuildingmod:light_blue_steel_stairs",
+    "davebuildingmod:white_steel_stairs",
+    "davebuildingmod:purple_steel_stairs",
+    "davebuildingmod:cyan_steel_stairs",
+    "davebuildingmod:gray_steel_stairs",
+    "davebuildingmod:lime_steel_stairs",
+    "davebuildingmod:red_steel_stairs",
+    "davebuildingmod:green_steel_stairs",
+    "davebuildingmod:blue_steel_stairs",
+    "davebuildingmod:yellow_steel_stairs",
+    "davebuildingmod:brown_steel_stairs",
+    "davebuildingmod:magenta_steel_stairs"
+  ]
+}

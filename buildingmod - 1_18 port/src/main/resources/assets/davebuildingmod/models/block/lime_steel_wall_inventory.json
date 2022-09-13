@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "davebuildingmod:blocks/lime_steel",
+    "particle": "davebuildingmod:blocks/lime_steel"
+  }
+}

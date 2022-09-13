@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "torch",
+        "1": "white_steel",
+        "2": "white_concrete"
+      },
+      "name": "default"
+    }
+  }
+}

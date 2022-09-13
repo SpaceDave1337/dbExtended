@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CyanSteelTank"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CyanSteelTank"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "CUSTOM:CyanSteelTank"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CyanSteelTank"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CyanBoiler"
+    },
+    "name": "rec_cyan_boiler",
+    "namespace": "mod"
+  }
+}

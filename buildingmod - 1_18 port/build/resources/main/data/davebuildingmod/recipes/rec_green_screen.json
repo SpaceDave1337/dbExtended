@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_dye"
+    },
+    "1": {
+      "item": "minecraft:lime_dye"
+    },
+    "2": {
+      "item": "minecraft:lime_dye"
+    },
+    "3": {
+      "item": "minecraft:stone"
+    },
+    "4": {
+      "item": "minecraft:stone"
+    },
+    "5": {
+      "item": "minecraft:stone"
+    },
+    "6": {
+      "item": "minecraft:lime_dye"
+    },
+    "7": {
+      "item": "minecraft:lime_dye"
+    },
+    "8": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:green_screen",
+    "count": 8
+  }
+}

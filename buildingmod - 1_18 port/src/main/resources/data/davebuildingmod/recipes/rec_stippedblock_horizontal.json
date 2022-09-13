@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:yellow_dye"
+    },
+    "1": {
+      "item": "davebuildingmod:steel_plating"
+    },
+    "2": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:strippedblock_horizontal",
+    "count": 2
+  }
+}

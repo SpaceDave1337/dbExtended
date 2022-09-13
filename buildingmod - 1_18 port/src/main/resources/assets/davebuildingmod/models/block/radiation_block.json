@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/radiation_block",
+    "up": "davebuildingmod:blocks/radiation_block",
+    "north": "davebuildingmod:blocks/radiation_block",
+    "east": "davebuildingmod:blocks/radiation_block",
+    "south": "davebuildingmod:blocks/radiation_block",
+    "west": "davebuildingmod:blocks/radiation_block",
+    "particle": "davebuildingmod:blocks/radiation_block"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "davebuildingmod:steel_tiles"
+    },
+    "3": {
+      "item": "davebuildingmod:steel_tiles"
+    },
+    "4": {
+      "item": "davebuildingmod:steel_tiles"
+    },
+    "6": {
+      "item": "davebuildingmod:steel_tiles"
+    },
+    "7": {
+      "item": "davebuildingmod:steel_tiles"
+    },
+    "8": {
+      "item": "davebuildingmod:steel_tiles"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:steel_stairs",
+    "count": 4
+  }
+}

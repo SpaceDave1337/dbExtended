@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/orange_quilted_wool",
+    "up": "davebuildingmod:blocks/orange_quilted_wool",
+    "north": "davebuildingmod:blocks/orange_quilted_wool",
+    "east": "davebuildingmod:blocks/orange_quilted_wool",
+    "south": "davebuildingmod:blocks/orange_quilted_wool",
+    "west": "davebuildingmod:blocks/orange_quilted_wool",
+    "particle": "davebuildingmod:blocks/orange_quilted_wool"
+  }
+}

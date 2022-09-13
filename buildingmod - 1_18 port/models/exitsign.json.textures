@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "exithere_sign",
+        "1": "anvil"
+      },
+      "name": "default"
+    }
+  }
+}

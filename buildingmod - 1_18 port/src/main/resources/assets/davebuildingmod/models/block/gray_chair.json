@@ -1,0 +1,9 @@
+{
+  "parent": "davebuildingmod:custom/woolchair",
+  "textures": {
+    "all": "davebuildingmod:blocks/gray_quilted_wool",
+    "particle": "davebuildingmod:blocks/gray_quilted_wool",
+    "0": "davebuildingmod:blocks/stripped_oak_log",
+    "1": "davebuildingmod:blocks/gray_quilted_wool"
+  }
+}

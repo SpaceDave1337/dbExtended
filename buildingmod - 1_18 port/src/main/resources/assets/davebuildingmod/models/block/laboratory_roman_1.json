@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/romannumerals1",
+    "up": "davebuildingmod:blocks/romannumerals1",
+    "north": "davebuildingmod:blocks/romannumerals1",
+    "east": "davebuildingmod:blocks/romannumerals1",
+    "south": "davebuildingmod:blocks/romannumerals1",
+    "west": "davebuildingmod:blocks/romannumerals1",
+    "particle": "davebuildingmod:blocks/romannumerals1"
+  }
+}

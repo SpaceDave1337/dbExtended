@@ -1,0 +1,8 @@
+{
+  "parent": "davebuildingmod:custom/5logpile1_bottom",
+  "textures": {
+    "all": "davebuildingmod:blocks/logpile_top",
+    "particle": "davebuildingmod:blocks/logpile_top",
+    "0": "davebuildingmod:blocks/campfire_log"
+  }
+}

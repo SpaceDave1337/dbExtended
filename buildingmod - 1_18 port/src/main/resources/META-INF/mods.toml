@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="davebuildingmod"
+version="4.9"
+displayName="Dave's Building Extended"
+credits="MCreator, L0rdzie, VanillaFac5, Kayla, Create Mod Team"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/daves-building-extended"
+logoFile="logo.png"
+authors="SpaceDave1337"
+description='''
+Just your average building mod, adds everything from Particle Generators to Track Buffer Pieces for Create 0.5
+'''
+
+[[dependencies.davebuildingmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.davebuildingmod]]
+    modId="just_enough_items"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

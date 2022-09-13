@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_open",
+  "textures": {
+    "texture": "davebuildingmod:blocks/brown_steel",
+    "particle": "davebuildingmod:blocks/brown_steel"
+  }
+}

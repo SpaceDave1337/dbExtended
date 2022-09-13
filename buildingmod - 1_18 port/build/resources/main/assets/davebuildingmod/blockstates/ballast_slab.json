@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "davebuildingmod:block/ballast_slab"
+    },
+    "type=top": {
+      "model": "davebuildingmod:block/ballast_slab_top"
+    },
+    "type=double": {
+      "model": "davebuildingmod:block/ballast_slab_full"
+    }
+  }
+}

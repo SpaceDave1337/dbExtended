@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CopperCoil"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CopperCoil"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "CUSTOM:CopperCoil"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CopperCoil"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CopperBoiler"
+    },
+    "name": "rec_zinc_boiler",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/red_quilted_wool",
+    "up": "davebuildingmod:blocks/red_quilted_wool",
+    "north": "davebuildingmod:blocks/red_quilted_wool",
+    "east": "davebuildingmod:blocks/red_quilted_wool",
+    "south": "davebuildingmod:blocks/red_quilted_wool",
+    "west": "davebuildingmod:blocks/red_quilted_wool",
+    "particle": "davebuildingmod:blocks/red_quilted_wool"
+  }
+}

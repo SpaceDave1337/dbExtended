@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BrownSteelTank"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BrownSteelTank"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "CUSTOM:BrownSteelTank"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BrownSteelTank"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BrownBoiler"
+    },
+    "name": "rec_brown_boiler",
+    "namespace": "mod"
+  }
+}

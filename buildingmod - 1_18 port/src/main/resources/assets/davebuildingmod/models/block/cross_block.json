@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/irritant_block",
+    "up": "davebuildingmod:blocks/irritant_block",
+    "north": "davebuildingmod:blocks/irritant_block",
+    "east": "davebuildingmod:blocks/irritant_block",
+    "south": "davebuildingmod:blocks/irritant_block",
+    "west": "davebuildingmod:blocks/irritant_block",
+    "particle": "davebuildingmod:blocks/irritant_block"
+  }
+}

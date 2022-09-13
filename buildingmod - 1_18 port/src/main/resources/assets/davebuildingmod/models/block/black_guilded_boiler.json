@@ -1,0 +1,8 @@
+{
+  "parent": "davebuildingmod:custom/boiler",
+  "textures": {
+    "all": "davebuildingmod:blocks/black_boilder_front",
+    "particle": "davebuildingmod:blocks/polished_andesite",
+    "cover": "davebuildingmod:blocks/crushing_wheel"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:quartz"
+    },
+    "3": {
+      "item": "minecraft:quartz"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "minecraft:quartz"
+    },
+    "7": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:laboratory_block",
+    "count": 16
+  }
+}

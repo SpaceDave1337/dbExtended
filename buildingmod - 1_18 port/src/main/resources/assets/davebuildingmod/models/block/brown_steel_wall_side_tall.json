@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "davebuildingmod:blocks/brown_steel",
+    "particle": "davebuildingmod:blocks/brown_steel"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "davebuildingmod:steel_ingot"
+    },
+    {
+      "item": "davebuildingmod:steel_ingot"
+    },
+    {
+      "item": "davebuildingmod:steel_ingot"
+    },
+    {
+      "item": "davebuildingmod:steel_ingot"
+    },
+    {
+      "item": "davebuildingmod:steel_ingot"
+    },
+    {
+      "item": "davebuildingmod:steel_ingot"
+    },
+    {
+      "item": "davebuildingmod:steel_ingot"
+    },
+    {
+      "item": "davebuildingmod:steel_ingot"
+    },
+    {
+      "item": "davebuildingmod:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "davebuildingmod:steel_block",
+    "count": 1
+  }
+}

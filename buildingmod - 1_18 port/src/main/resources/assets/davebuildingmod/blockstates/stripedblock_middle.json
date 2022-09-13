@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/stripedblock_middle"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/stripedblock_middle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/stripedblock_middle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/stripedblock_middle",
+      "y": 270
+    }
+  }
+}

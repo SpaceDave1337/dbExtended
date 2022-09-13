@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "davebuildingmod:steel_plating"
+    },
+    {
+      "item": "davebuildingmod:steel_plating"
+    },
+    {
+      "item": "davebuildingmod:steel_plating"
+    },
+    {
+      "item": "davebuildingmod:steel_plating"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "item": "davebuildingmod:steel_plating"
+    },
+    {
+      "item": "davebuildingmod:steel_plating"
+    },
+    {
+      "item": "davebuildingmod:steel_plating"
+    },
+    {
+      "item": "davebuildingmod:steel_plating"
+    }
+  ],
+  "result": {
+    "item": "davebuildingmod:black_steel_plating",
+    "count": 8
+  }
+}

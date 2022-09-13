@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SteelPlating"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": "Items.BONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DeathBlock"
+    },
+    "name": "rec_death_block",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/greenscreen",
+    "up": "davebuildingmod:blocks/greenscreen",
+    "north": "davebuildingmod:blocks/greenscreen",
+    "east": "davebuildingmod:blocks/greenscreen",
+    "south": "davebuildingmod:blocks/greenscreen",
+    "west": "davebuildingmod:blocks/greenscreen",
+    "particle": "davebuildingmod:blocks/greenscreen"
+  }
+}

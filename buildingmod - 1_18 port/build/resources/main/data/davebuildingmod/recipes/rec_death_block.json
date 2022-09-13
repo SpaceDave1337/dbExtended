@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:yellow_dye"
+    },
+    "4": {
+      "item": "davebuildingmod:steel_plating"
+    },
+    "6": {
+      "item": "minecraft:bone"
+    },
+    "7": {
+      "item": "minecraft:yellow_dye"
+    },
+    "8": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:death_block",
+    "count": 2
+  }
+}

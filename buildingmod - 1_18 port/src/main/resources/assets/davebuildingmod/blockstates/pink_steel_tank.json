@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "davebuildingmod:block/pink_steel_tank",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "davebuildingmod:block/pink_steel_tank"
+    },
+    "axis=z": {
+      "model": "davebuildingmod:block/pink_steel_tank",
+      "x": 90
+    }
+  }
+}

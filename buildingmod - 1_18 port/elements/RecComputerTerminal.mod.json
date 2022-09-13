@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.QUARTZ"
+      },
+      {
+        "value": "Items.QUARTZ"
+      },
+      {
+        "value": "Items.QUARTZ"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.QUARTZ"
+      },
+      {
+        "value": "CUSTOM:BasicCircuit"
+      },
+      {
+        "value": "Items.QUARTZ"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ComputerTerminal"
+    },
+    "name": "rec_computer_terminal",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "davebuildingmod:blocks/gravel",
+    "top": "davebuildingmod:blocks/gravel",
+    "side": "davebuildingmod:blocks/gravel"
+  }
+}

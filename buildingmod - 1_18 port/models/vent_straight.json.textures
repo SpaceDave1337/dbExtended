@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "steel_plating",
+        "1": "steel_seemless",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

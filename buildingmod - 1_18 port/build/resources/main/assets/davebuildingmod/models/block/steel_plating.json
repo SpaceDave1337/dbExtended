@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/steel_plating",
+    "up": "davebuildingmod:blocks/steel_plating",
+    "north": "davebuildingmod:blocks/steel_plating",
+    "east": "davebuildingmod:blocks/steel_plating",
+    "south": "davebuildingmod:blocks/steel_plating",
+    "west": "davebuildingmod:blocks/steel_plating",
+    "particle": "davebuildingmod:blocks/steel_plating"
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "cover": "crushing_wheel",
+        "particle": "polished_andesite"
+      },
+      "name": "default"
+    },
+    "white": {
+      "map": {
+        "cover": "white_boiler",
+        "particle": "white_steel_tank"
+      },
+      "name": "white"
+    },
+    "white_gilded": {
+      "map": {
+        "cover": "white_boiler",
+        "particle": "gilded_white_steel_tank"
+      },
+      "name": "white_gilded"
+    },
+    "light_gray": {
+      "map": {
+        "cover": "light_gray_boiler",
+        "particle": "light_gray_steel_tank"
+      },
+      "name": "light_gray"
+    },
+    "light_gray_gilded": {
+      "map": {
+        "cover": "light_gray_boiler",
+        "particle": "gilded_light_gray_steel_tank"
+      },
+      "name": "light_gray_gilded"
+    },
+    "gray": {
+      "map": {
+        "cover": "gray_boiler",
+        "particle": "gray_steel_tank"
+      },
+      "name": "gray"
+    },
+    "gray_gilded": {
+      "map": {
+        "cover": "gray_boiler",
+        "particle": "gilded_gray_steel_tank"
+      },
+      "name": "gray_gilded"
+    },
+    "black": {
+      "map": {
+        "cover": "black_boilder_front",
+        "particle": "black_tank"
+      },
+      "name": "black"
+    },
+    "black_gilded": {
+      "map": {
+        "cover": "black_boilder_front",
+        "particle": "guilded_black_tank"
+      },
+      "name": "black_gilded"
+    },
+    "red": {
+      "map": {
+        "cover": "red_boiler",
+        "particle": "red_tank"
+      },
+      "name": "red"
+    },
+    "red_gilded": {
+      "map": {
+        "cover": "red_boiler",
+        "particle": "guilded_red_tank"
+      },
+      "name": "red_gilded"
+    },
+    "orange": {
+      "map": {
+        "cover": "orange_boiler",
+        "particle": "orange_steel_tank"
+      },
+      "name": "orange"
+    },
+    "orange_gilded": {
+      "map": {
+        "cover": "orange_boiler",
+        "particle": "gilded_orange_steel_tank"
+      },
+      "name": "orange_gilded"
+    },
+    "yellow": {
+      "map": {
+        "cover": "yellow_boiler",
+        "particle": "yellow_steel_tank"
+      },
+      "name": "yellow"
+    },
+    "yellow_gilded": {
+      "map": {
+        "cover": "yellow_boiler",
+        "particle": "gilded_yellow_steel_tank"
+      },
+      "name": "yellow_gilded"
+    },
+    "lime": {
+      "map": {
+        "cover": "lime_boiler",
+        "particle": "lime_steel_tank"
+      },
+      "name": "lime"
+    },
+    "lime_gilded": {
+      "map": {
+        "cover": "lime_boiler",
+        "particle": "gilded_lime_steel_tank"
+      },
+      "name": "lime_gilded"
+    },
+    "green": {
+      "map": {
+        "cover": "green_boiler",
+        "particle": "green_steel_boiler"
+      },
+      "name": "green"
+    },
+    "green_gilded": {
+      "map": {
+        "cover": "green_boiler",
+        "particle": "guilded_green_steel_boiler"
+      },
+      "name": "green_gilded"
+    },
+    "light_blue": {
+      "map": {
+        "cover": "light_blue_boiler",
+        "particle": "light_blue_steel_tank"
+      },
+      "name": "light_blue"
+    },
+    "light_blue_gilded": {
+      "map": {
+        "cover": "light_blue_boiler",
+        "particle": "gilded_light_blue_steel_tank"
+      },
+      "name": "light_blue_gilded"
+    },
+    "cyan": {
+      "map": {
+        "cover": "cyan_boiler",
+        "particle": "cyan_steel_tank"
+      },
+      "name": "cyan"
+    },
+    "cyan_gilded": {
+      "map": {
+        "cover": "cyan_boiler",
+        "particle": "gilded_cyan_steel_tank"
+      },
+      "name": "cyan_gilded"
+    },
+    "blue": {
+      "map": {
+        "cover": "blue_boiler",
+        "particle": "blue_steel_tank"
+      },
+      "name": "blue"
+    },
+    "blue_gilded": {
+      "map": {
+        "cover": "blue_boiler",
+        "particle": "gilded_blue_steel_tank"
+      },
+      "name": "blue_gilded"
+    },
+    "purple": {
+      "map": {
+        "cover": "purple_boiler",
+        "particle": "purple_steel_tank"
+      },
+      "name": "purple"
+    },
+    "purple_gilded": {
+      "map": {
+        "cover": "purple_boiler",
+        "particle": "gilded_purple_steel_tank"
+      },
+      "name": "purple_gilded"
+    },
+    "magenta": {
+      "map": {
+        "cover": "magenta_boiler",
+        "particle": "magenta_steel_tank"
+      },
+      "name": "magenta"
+    },
+    "magenta_gilded": {
+      "map": {
+        "cover": "magenta_boiler",
+        "particle": "gilded_magenta_steel_tank"
+      },
+      "name": "magenta_gilded"
+    },
+    "pink": {
+      "map": {
+        "cover": "pink_boiler",
+        "particle": "pink_steel_tank"
+      },
+      "name": "pink"
+    },
+    "pink_gilded": {
+      "map": {
+        "cover": "pink_boiler",
+        "particle": "gilded_pink_steel_tank"
+      },
+      "name": "pink_gilded"
+    },
+    "brown": {
+      "map": {
+        "cover": "brown_boiler",
+        "particle": "brown_steel_tank"
+      },
+      "name": "brown"
+    },
+    "brown_gilded": {
+      "map": {
+        "cover": "brown_boiler",
+        "particle": "gilded_brown_steel_tank"
+      },
+      "name": "brown_gilded"
+    },
+    "copper": {
+      "map": {
+        "cover": "copper_boiler",
+        "particle": "fluid_tank"
+      },
+      "name": "copper"
+    },
+    "brass": {
+      "map": {
+        "cover": "brass_boiler",
+        "particle": "brasstank"
+      },
+      "name": "brass"
+    },
+    "zinc": {
+      "map": {
+        "cover": "zinc_boiler",
+        "particle": "zinc_tank"
+      },
+      "name": "zinc"
+    }
+  }
+}

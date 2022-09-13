@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:book"
+    },
+    "1": {
+      "item": "minecraft:book"
+    },
+    "2": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:book_1",
+    "count": 1
+  }
+}

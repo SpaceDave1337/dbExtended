@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "davebuildingmod:steel_block"
+    }
+  ],
+  "result": {
+    "item": "davebuildingmod:steel_ingot",
+    "count": 9
+  }
+}

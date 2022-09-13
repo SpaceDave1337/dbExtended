@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:arrow"
+    },
+    "1": {
+      "tag": "forge:ingots/steel"
+    },
+    "2": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:arrow_up_sign",
+    "count": 4
+  }
+}

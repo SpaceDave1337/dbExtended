@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_stained_glass_pane"
+    },
+    "1": {
+      "item": "minecraft:red_stained_glass_pane"
+    },
+    "2": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:isolinear_back_red",
+    "count": 2
+  }
+}

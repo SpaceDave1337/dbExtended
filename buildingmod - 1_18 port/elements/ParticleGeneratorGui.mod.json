@@ -1,0 +1,103 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 200,
+    "height": 194,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 13,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Particle Card",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Particle Card",
+          "x": 177,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Y-Offset",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Y-Offset",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 45,
+          "height": 20,
+          "name": "YOffset",
+          "x": 132,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Size",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Size",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 45,
+          "height": 20,
+          "name": "Size",
+          "x": 249,
+          "y": 53
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "OpenParticleGen"
+    },
+    "onClosed": {
+      "name": "OffsetFunction"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

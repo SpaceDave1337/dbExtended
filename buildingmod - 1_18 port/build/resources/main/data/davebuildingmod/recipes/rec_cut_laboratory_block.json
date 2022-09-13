@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "davebuildingmod:laboratory_block"
+    },
+    "1": {
+      "item": "davebuildingmod:laboratory_block"
+    },
+    "2": {
+      "item": "davebuildingmod:laboratory_block"
+    },
+    "3": {
+      "item": "davebuildingmod:laboratory_block"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:cut_laboratory_block",
+    "count": 4
+  }
+}

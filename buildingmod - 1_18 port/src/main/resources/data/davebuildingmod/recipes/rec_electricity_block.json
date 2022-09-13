@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:yellow_dye"
+    },
+    "1": {
+      "item": "davebuildingmod:steel_plating"
+    },
+    "2": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:electricity_block",
+    "count": 2
+  }
+}

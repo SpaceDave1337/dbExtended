@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "davebuildingmod:magenta_steel_slab",
+    "davebuildingmod:black_steel_slab",
+    "davebuildingmod:purple_steel_slab",
+    "davebuildingmod:cyan_steel_slab",
+    "davebuildingmod:rocky_dirt_slab",
+    "davebuildingmod:yellow_steel_slab",
+    "davebuildingmod:orange_steel_slab",
+    "davebuildingmod:light_gray_steel_slab",
+    "davebuildingmod:blue_steel_slab",
+    "davebuildingmod:gray_steel_slab",
+    "davebuildingmod:steel_slab",
+    "davebuildingmod:lime_steel_slab",
+    "davebuildingmod:brown_steel_slab",
+    "davebuildingmod:green_steel_slab",
+    "davebuildingmod:white_steel_slab",
+    "davebuildingmod:ballast_slab",
+    "davebuildingmod:dirt_slab",
+    "davebuildingmod:red_steel_slab",
+    "davebuildingmod:pink_steel_slab",
+    "davebuildingmod:gravel_slab",
+    "davebuildingmod:light_blue_steel_slab"
+  ]
+}

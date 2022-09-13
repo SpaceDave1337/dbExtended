@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:arrow"
+    },
+    "1": {
+      "item": "davebuildingmod:laboratory_stripe"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:laboratory_left_arrow",
+    "count": 1
+  }
+}

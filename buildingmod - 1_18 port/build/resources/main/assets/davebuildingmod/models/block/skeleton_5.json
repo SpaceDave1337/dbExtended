@@ -1,0 +1,8 @@
+{
+  "parent": "davebuildingmod:custom/skeleton5",
+  "textures": {
+    "all": "davebuildingmod:blocks/skeleton",
+    "particle": "davebuildingmod:blocks/skeleton",
+    "0": "davebuildingmod:blocks/skeleton"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "no_entry": {
+      "map": {
+        "0": "no_entry_sign"
+      },
+      "name": "no_entry"
+    },
+    "default": {
+      "map": {
+        "0": "alarm_sign"
+      },
+      "name": "default"
+    },
+    "arrow_up": {
+      "map": {
+        "0": "arrow_up_sign"
+      },
+      "name": "arrow_up"
+    },
+    "arrow_right": {
+      "map": {
+        "0": "arrow_right_sign"
+      },
+      "name": "arrow_right"
+    },
+    "arrow_return": {
+      "map": {
+        "0": "arrow_return_sign"
+      },
+      "name": "arrow_return"
+    },
+    "arrow_left": {
+      "map": {
+        "0": "arrow_left_sign"
+      },
+      "name": "arrow_left"
+    },
+    "arrow_down": {
+      "map": {
+        "0": "arrow_down_sign"
+      },
+      "name": "arrow_down"
+    },
+    "oneway": {
+      "map": {
+        "0": "oneway_sign"
+      },
+      "name": "oneway"
+    }
+  }
+}

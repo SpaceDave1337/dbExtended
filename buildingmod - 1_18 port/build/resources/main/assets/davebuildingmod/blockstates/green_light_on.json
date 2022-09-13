@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/green_light_on"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/green_light_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/green_light_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/green_light_on",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "davebuildingmod:block/green_light_on",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "davebuildingmod:block/green_light_on",
+      "x": 90
+    }
+  }
+}

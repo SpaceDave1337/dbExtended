@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/green_steel_boiler_top",
+    "up": "davebuildingmod:blocks/green_steel_boiler_top",
+    "north": "davebuildingmod:blocks/guilded_green_steel_boiler",
+    "east": "davebuildingmod:blocks/guilded_green_steel_boiler",
+    "south": "davebuildingmod:blocks/guilded_green_steel_boiler",
+    "west": "davebuildingmod:blocks/guilded_green_steel_boiler",
+    "particle": "davebuildingmod:blocks/green_steel_boiler_top"
+  }
+}

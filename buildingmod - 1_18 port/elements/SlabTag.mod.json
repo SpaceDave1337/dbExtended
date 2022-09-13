@@ -1,0 +1,77 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:SteelSlab"
+      },
+      {
+        "value": "CUSTOM:BlackSteelSlab"
+      },
+      {
+        "value": "CUSTOM:RedSteelSlab"
+      },
+      {
+        "value": "CUSTOM:GreenSteelSlab"
+      },
+      {
+        "value": "CUSTOM:BrownSteelSlab"
+      },
+      {
+        "value": "CUSTOM:BlueSteelSlab"
+      },
+      {
+        "value": "CUSTOM:PurpleSteelSlab"
+      },
+      {
+        "value": "CUSTOM:CyanSteelSlab"
+      },
+      {
+        "value": "CUSTOM:LightGraySteelSlab"
+      },
+      {
+        "value": "CUSTOM:GraySteelSlab"
+      },
+      {
+        "value": "CUSTOM:PinkSteelSlab"
+      },
+      {
+        "value": "CUSTOM:LimeSteelSlab"
+      },
+      {
+        "value": "CUSTOM:YellowSteelSlab"
+      },
+      {
+        "value": "CUSTOM:LightBlueSteelSlab"
+      },
+      {
+        "value": "CUSTOM:MagentaSteelSlab"
+      },
+      {
+        "value": "CUSTOM:OrangeSteelSlab"
+      },
+      {
+        "value": "CUSTOM:WhiteSteelSlab"
+      },
+      {
+        "value": "CUSTOM:RockyDirtSlab"
+      },
+      {
+        "value": "CUSTOM:DirtSlab"
+      },
+      {
+        "value": "CUSTOM:GravelSlab"
+      },
+      {
+        "value": "CUSTOM:BallastSlab"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "slabs",
+    "namespace": "minecraft"
+  }
+}

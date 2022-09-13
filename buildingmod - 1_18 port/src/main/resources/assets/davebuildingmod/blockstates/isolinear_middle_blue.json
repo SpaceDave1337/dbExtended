@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/isolinear_middle_blue"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/isolinear_middle_blue",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/isolinear_middle_blue",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/isolinear_middle_blue",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "davebuildingmod:block/isolinear_middle_blue",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "davebuildingmod:block/isolinear_middle_blue",
+      "x": 90
+    }
+  }
+}

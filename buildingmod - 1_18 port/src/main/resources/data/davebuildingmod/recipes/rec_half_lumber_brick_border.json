@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:stripped_spruce_log"
+    },
+    "3": {
+      "item": "minecraft:bricks"
+    },
+    "4": {
+      "item": "minecraft:bricks"
+    },
+    "5": {
+      "item": "minecraft:bricks"
+    },
+    "7": {
+      "item": "minecraft:stripped_spruce_log"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:half_lumber_brick_border",
+    "count": 8
+  }
+}

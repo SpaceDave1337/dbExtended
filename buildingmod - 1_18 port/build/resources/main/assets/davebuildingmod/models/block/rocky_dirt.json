@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/rocky_dirt",
+    "up": "davebuildingmod:blocks/rocky_dirt",
+    "north": "davebuildingmod:blocks/rocky_dirt",
+    "east": "davebuildingmod:blocks/rocky_dirt",
+    "south": "davebuildingmod:blocks/rocky_dirt",
+    "west": "davebuildingmod:blocks/rocky_dirt",
+    "particle": "davebuildingmod:blocks/rocky_dirt"
+  }
+}

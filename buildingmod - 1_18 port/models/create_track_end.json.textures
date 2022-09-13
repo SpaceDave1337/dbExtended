@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "standard_track",
+        "2": "standard_track_mip",
+        "missing": "polished_andesite"
+      },
+      "name": "default"
+    }
+  }
+}

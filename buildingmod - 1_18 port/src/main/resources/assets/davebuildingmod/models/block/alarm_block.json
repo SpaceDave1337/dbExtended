@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/alarm_block",
+    "up": "davebuildingmod:blocks/alarm_block",
+    "north": "davebuildingmod:blocks/alarm_block",
+    "east": "davebuildingmod:blocks/alarm_block",
+    "south": "davebuildingmod:blocks/alarm_block",
+    "west": "davebuildingmod:blocks/alarm_block",
+    "particle": "davebuildingmod:blocks/alarm_block"
+  }
+}

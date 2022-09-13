@@ -1,0 +1,10 @@
+{
+  "parent": "davebuildingmod:custom/trainlamp",
+  "textures": {
+    "all": "davebuildingmod:blocks/black_steel",
+    "particle": "davebuildingmod:blocks/black_steel",
+    "0": "davebuildingmod:blocks/torch",
+    "1": "davebuildingmod:blocks/white_steel",
+    "2": "davebuildingmod:blocks/white_concrete"
+  }
+}

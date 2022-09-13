@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/yellowstripemiddle_block",
+    "up": "davebuildingmod:blocks/yellowstripemiddle_block",
+    "north": "davebuildingmod:blocks/yellowstripemiddle_block",
+    "east": "davebuildingmod:blocks/yellowstripemiddle_block",
+    "south": "davebuildingmod:blocks/yellowstripemiddle_block",
+    "west": "davebuildingmod:blocks/yellowstripemiddle_block",
+    "particle": "davebuildingmod:blocks/yellowstripemiddle_block"
+  }
+}

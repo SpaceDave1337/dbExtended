@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/exit_sign"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/exit_sign",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/exit_sign",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/exit_sign",
+      "y": 270
+    }
+  }
+}

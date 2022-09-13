@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "davebuildingmod:steel_pillar"
+    },
+    "1": {
+      "item": "davebuildingmod:steel_frame"
+    },
+    "2": {
+      "item": "davebuildingmod:steel_pillar"
+    },
+    "3": {
+      "item": "davebuildingmod:steel_pillar"
+    },
+    "4": {
+      "item": "davebuildingmod:steel_frame"
+    },
+    "5": {
+      "item": "davebuildingmod:steel_pillar"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:steel_girder",
+    "count": 6
+  }
+}

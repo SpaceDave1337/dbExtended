@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/furnace_top",
+    "up": "davebuildingmod:blocks/observer_top",
+    "north": "davebuildingmod:blocks/particle_emitter",
+    "east": "davebuildingmod:blocks/furnace_side",
+    "south": "davebuildingmod:blocks/furnace_side",
+    "west": "davebuildingmod:blocks/furnace_side",
+    "particle": "davebuildingmod:blocks/furnace_top"
+  }
+}

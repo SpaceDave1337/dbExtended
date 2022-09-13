@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "davebuildingmod:blocks/brown_steel",
+    "top": "davebuildingmod:blocks/brown_steel",
+    "side": "davebuildingmod:blocks/brown_steel"
+  }
+}

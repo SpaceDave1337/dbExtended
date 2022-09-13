@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "davebuildingmod:blocks/steel_seemless",
+    "top": "davebuildingmod:blocks/steel_doortop"
+  }
+}

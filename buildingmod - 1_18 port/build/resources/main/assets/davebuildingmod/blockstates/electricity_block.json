@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/electricity_block"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/electricity_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/electricity_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/electricity_block",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "davebuildingmod:blocks/pink_steel",
+    "top": "davebuildingmod:blocks/pink_steel",
+    "side": "davebuildingmod:blocks/pink_steel"
+  }
+}

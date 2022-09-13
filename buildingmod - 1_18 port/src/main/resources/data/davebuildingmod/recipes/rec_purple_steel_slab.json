@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "davebuildingmod:purple_steel_plating"
+    },
+    "1": {
+      "item": "davebuildingmod:purple_steel_plating"
+    },
+    "2": {
+      "item": "davebuildingmod:purple_steel_plating"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:purple_steel_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 8,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "Blocks.WOOL"
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SoftAir"
+    },
+    "name": "rec_soft_air",
+    "namespace": "mod"
+  }
+}

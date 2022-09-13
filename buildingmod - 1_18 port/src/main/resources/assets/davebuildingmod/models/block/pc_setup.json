@@ -1,0 +1,9 @@
+{
+  "parent": "davebuildingmod:custom/pcsetup",
+  "textures": {
+    "all": "davebuildingmod:blocks/computer_special",
+    "particle": "davebuildingmod:blocks/computer_special",
+    "0": "davebuildingmod:blocks/anvil",
+    "1": "davebuildingmod:blocks/computer_special"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "davebuildingmod:custom/woodenpalisade",
+  "textures": {
+    "all": "davebuildingmod:blocks/logpile_side",
+    "particle": "davebuildingmod:blocks/logpile_side",
+    "0": "davebuildingmod:blocks/logpile_top",
+    "1": "davebuildingmod:blocks/logpile_side"
+  }
+}

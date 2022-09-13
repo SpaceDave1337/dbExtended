@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.POLISHED_BLACKSTONE_BUTTON"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#4"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#4"
+      },
+      {
+        "value": "Blocks.CONCRETE#1"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#4"
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY#4"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RubberDuck"
+    },
+    "name": "rec_rubber_duck",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:ingots/steel"
+    },
+    "3": {
+      "tag": "forge:ingots/steel"
+    },
+    "4": {
+      "item": "minecraft:glass"
+    },
+    "5": {
+      "tag": "forge:ingots/steel"
+    },
+    "7": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:reinforced_glass",
+    "count": 8
+  }
+}

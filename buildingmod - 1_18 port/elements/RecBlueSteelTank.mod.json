@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 8,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlueSteelPlating"
+      },
+      {
+        "value": "CUSTOM:BlueSteelPlating"
+      },
+      {
+        "value": "CUSTOM:BlueSteelPlating"
+      },
+      {
+        "value": "CUSTOM:BlueSteelPlating"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlueSteelPlating"
+      },
+      {
+        "value": "CUSTOM:BlueSteelPlating"
+      },
+      {
+        "value": "CUSTOM:BlueSteelPlating"
+      },
+      {
+        "value": "CUSTOM:BlueSteelPlating"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlueSteelTank"
+    },
+    "name": "rec_blue_steel_tank",
+    "namespace": "mod"
+  }
+}

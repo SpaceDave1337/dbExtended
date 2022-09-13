@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "davebuildingmod:blocks/blue_steel",
+    "top": "davebuildingmod:blocks/blue_steel",
+    "side": "davebuildingmod:blocks/blue_steel"
+  }
+}

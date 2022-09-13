@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "davebuildingmod:half_lumber_border"
+  },
+  "result": "davebuildingmod:half_lumber_vertical"
+}

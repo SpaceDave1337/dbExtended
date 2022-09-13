@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "davebuildingmod:blocks/ballast",
+    "top": "davebuildingmod:blocks/ballast",
+    "side": "davebuildingmod:blocks/ballast"
+  }
+}

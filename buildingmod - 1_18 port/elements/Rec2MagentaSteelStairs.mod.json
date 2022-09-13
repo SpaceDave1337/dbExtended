@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MagentaSteelPlating"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagentaSteelPlating"
+      },
+      {
+        "value": "CUSTOM:MagentaSteelPlating"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagentaSteelPlating"
+      },
+      {
+        "value": "CUSTOM:MagentaSteelPlating"
+      },
+      {
+        "value": "CUSTOM:MagentaSteelPlating"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagentaSteelStairs"
+    },
+    "name": "rec_2_magenta_steel_stairs",
+    "namespace": "mod"
+  }
+}

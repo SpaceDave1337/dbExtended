@@ -1,0 +1,71 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:SteelWall"
+      },
+      {
+        "value": "CUSTOM:SteelColoumn"
+      },
+      {
+        "value": "CUSTOM:SteelGirder"
+      },
+      {
+        "value": "CUSTOM:BlackSteelWall"
+      },
+      {
+        "value": "CUSTOM:RedSteelWall"
+      },
+      {
+        "value": "CUSTOM:GreenSteelWall"
+      },
+      {
+        "value": "CUSTOM:BrownSteelWall"
+      },
+      {
+        "value": "CUSTOM:BlueSteelWall"
+      },
+      {
+        "value": "CUSTOM:PurpleSteelWall"
+      },
+      {
+        "value": "CUSTOM:CyanSteelWall"
+      },
+      {
+        "value": "CUSTOM:LightGraySteelWall"
+      },
+      {
+        "value": "CUSTOM:GraySteelWall"
+      },
+      {
+        "value": "CUSTOM:PinkSteelWall"
+      },
+      {
+        "value": "CUSTOM:LimeSteelWall"
+      },
+      {
+        "value": "CUSTOM:YellowSteelWall"
+      },
+      {
+        "value": "CUSTOM:LightBlueSteelWall"
+      },
+      {
+        "value": "CUSTOM:MagentaSteelWall"
+      },
+      {
+        "value": "CUSTOM:OrangeSteelWall"
+      },
+      {
+        "value": "CUSTOM:WhiteSteelWall"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "walls",
+    "namespace": "minecraft"
+  }
+}

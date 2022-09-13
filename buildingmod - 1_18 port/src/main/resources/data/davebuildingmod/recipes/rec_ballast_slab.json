@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "davebuildingmod:ballast"
+    },
+    "1": {
+      "item": "davebuildingmod:ballast"
+    },
+    "2": {
+      "item": "davebuildingmod:ballast"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:ballast_slab",
+    "count": 6
+  }
+}

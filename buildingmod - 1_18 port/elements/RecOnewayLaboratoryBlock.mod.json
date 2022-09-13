@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LaboratoryBlock"
+      },
+      {
+        "value": "CUSTOM:LaboratoryBlock"
+      },
+      {
+        "value": "CUSTOM:LaboratoryBlock"
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "CUSTOM:LaboratoryBlock"
+      },
+      {
+        "value": "CUSTOM:LaboratoryBlock"
+      },
+      {
+        "value": "CUSTOM:LaboratoryBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OnewayLaboratoryBlock"
+    },
+    "name": "rec_oneway_laboratory_block",
+    "namespace": "mod"
+  }
+}

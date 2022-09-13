@@ -1,0 +1,9 @@
+{
+  "parent": "davebuildingmod:custom/isolinearchip2",
+  "textures": {
+    "all": "davebuildingmod:blocks/red_stained_glass",
+    "particle": "davebuildingmod:blocks/red_stained_glass",
+    "0": "davebuildingmod:blocks/steel_seemless",
+    "1": "davebuildingmod:blocks/red_stained_glass"
+  }
+}

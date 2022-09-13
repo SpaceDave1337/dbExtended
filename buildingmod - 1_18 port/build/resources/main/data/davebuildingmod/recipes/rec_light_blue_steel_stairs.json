@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "davebuildingmod:light_blue_steel_plating"
+    },
+    "4": {
+      "item": "davebuildingmod:light_blue_steel_plating"
+    },
+    "5": {
+      "item": "davebuildingmod:light_blue_steel_plating"
+    },
+    "6": {
+      "item": "davebuildingmod:light_blue_steel_plating"
+    },
+    "7": {
+      "item": "davebuildingmod:light_blue_steel_plating"
+    },
+    "8": {
+      "item": "davebuildingmod:light_blue_steel_plating"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:light_blue_steel_stairs",
+    "count": 4
+  }
+}

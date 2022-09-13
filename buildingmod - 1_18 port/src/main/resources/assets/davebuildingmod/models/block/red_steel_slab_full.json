@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "davebuildingmod:blocks/red_steel",
+    "top": "davebuildingmod:blocks/red_steel",
+    "side": "davebuildingmod:blocks/red_steel"
+  }
+}

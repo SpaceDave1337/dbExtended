@@ -1,0 +1,9 @@
+{
+  "_fv": 33,
+  "_type": "command",
+  "definition": {
+    "commandName": "remove_chair",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"old_command\"><field name=\"procedure\">RemoveChairsCommandExecuted</field></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:polished_andesite"
+    },
+    "3": {
+      "item": "minecraft:polished_andesite"
+    },
+    "4": {
+      "item": "minecraft:water_bucket"
+    },
+    "5": {
+      "item": "minecraft:polished_andesite"
+    },
+    "7": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:create_boiler",
+    "count": 2
+  }
+}

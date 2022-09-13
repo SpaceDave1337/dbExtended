@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "davebuildingmod:block/dirt_slab"
+    },
+    "type=top": {
+      "model": "davebuildingmod:block/dirt_slab_top"
+    },
+    "type=double": {
+      "model": "davebuildingmod:block/dirt_slab_full"
+    }
+  }
+}

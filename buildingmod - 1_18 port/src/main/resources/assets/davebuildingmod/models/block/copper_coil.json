@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/hopper_inside",
+    "up": "davebuildingmod:blocks/hopper_inside",
+    "north": "davebuildingmod:blocks/copper_coil",
+    "east": "davebuildingmod:blocks/copper_coil",
+    "south": "davebuildingmod:blocks/copper_coil",
+    "west": "davebuildingmod:blocks/copper_coil",
+    "particle": "davebuildingmod:blocks/hopper_inside"
+  }
+}

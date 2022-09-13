@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "davebuildingmod:lime_steel_wall",
+    "davebuildingmod:white_steel_wall",
+    "davebuildingmod:steel_girder",
+    "davebuildingmod:blue_steel_wall",
+    "davebuildingmod:gray_steel_wall",
+    "davebuildingmod:steel_wall",
+    "davebuildingmod:green_steel_wall",
+    "davebuildingmod:brown_steel_wall",
+    "davebuildingmod:red_steel_wall",
+    "davebuildingmod:light_blue_steel_wall",
+    "davebuildingmod:steel_coloumn",
+    "davebuildingmod:black_steel_wall",
+    "davebuildingmod:pink_steel_wall",
+    "davebuildingmod:magenta_steel_wall",
+    "davebuildingmod:orange_steel_wall",
+    "davebuildingmod:purple_steel_wall",
+    "davebuildingmod:cyan_steel_wall",
+    "davebuildingmod:yellow_steel_wall",
+    "davebuildingmod:light_gray_steel_wall"
+  ]
+}

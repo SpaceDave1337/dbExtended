@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 16,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:ingots/steel"
+      },
+      {
+        "value": "TAG:forge:ingots/steel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:ingots/steel"
+      },
+      {
+        "value": "TAG:forge:ingots/steel"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SteelPlating"
+    },
+    "name": "rec_steel_plating",
+    "namespace": "mod"
+  }
+}

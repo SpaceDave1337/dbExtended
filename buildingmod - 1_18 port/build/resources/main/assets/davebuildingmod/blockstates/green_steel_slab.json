@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "davebuildingmod:block/green_steel_slab"
+    },
+    "type=top": {
+      "model": "davebuildingmod:block/green_steel_slab_top"
+    },
+    "type=double": {
+      "model": "davebuildingmod:block/green_steel_slab_full"
+    }
+  }
+}

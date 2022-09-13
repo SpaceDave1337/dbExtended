@@ -1,0 +1,15 @@
+Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+Arguments: '--task, SRG_TO_MCP, --input, C:\Users\Nutzer\.mcreator\gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.18.2\9.5.0.132\87e569b8226e289771927f6346f98e68488ef52a\jei-1.18.2-9.5.0.132.jar, --output, C:\Users\Nutzer\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.18.2\9.5.0.132_mapped_official_1.18.2\jei-1.18.2-9.5.0.132_mapped_official_1.18.2.jar, --mcp, C:\Users\Nutzer\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.18.2\mapping-1.18.2-mapping.zip, --strip-signatures'
+Classpath:
+ - C:\Users\Nutzer\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.3.2\installertools-1.3.2-fatjar.jar
+Working directory: C:\Users\Nutzer\MCreatorWorkspaces\buildingmod - 1_18 port\build\_RenameSrg2Mcp_1870819130
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\Nutzer\.mcreator\gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.18.2\9.5.0.132\87e569b8226e289771927f6346f98e68488ef52a\jei-1.18.2-9.5.0.132.jar
+Output: C:\Users\Nutzer\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.18.2\9.5.0.132_mapped_official_1.18.2\jei-1.18.2-9.5.0.132_mapped_official_1.18.2.jar
+MCP:    C:\Users\Nutzer\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.18.2\mapping-1.18.2-mapping.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Process complete

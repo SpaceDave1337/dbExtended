@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/server_rack"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/server_rack",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/server_rack",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/server_rack",
+      "y": 270
+    }
+  }
+}

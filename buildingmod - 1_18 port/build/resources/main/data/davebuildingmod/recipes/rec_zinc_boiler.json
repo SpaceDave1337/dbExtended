@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "create:zinc_ingot"
+    },
+    "3": {
+      "item": "create:zinc_ingot"
+    },
+    "4": {
+      "item": "minecraft:water_bucket"
+    },
+    "5": {
+      "item": "create:zinc_ingot"
+    },
+    "7": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:zinc_boiler",
+    "count": 2
+  }
+}

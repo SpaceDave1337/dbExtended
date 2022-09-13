@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/soundblock_top",
+    "up": "davebuildingmod:blocks/soundblock_top",
+    "north": "davebuildingmod:blocks/soundblock_side",
+    "east": "davebuildingmod:blocks/soundblock_top",
+    "south": "davebuildingmod:blocks/soundblock_top",
+    "west": "davebuildingmod:blocks/soundblock_top",
+    "particle": "davebuildingmod:blocks/soundblock_top"
+  }
+}

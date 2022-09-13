@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "ron": {
+      "map": {
+        "0": "r_lamp_on"
+      },
+      "name": "ron"
+    },
+    "default": {
+      "map": {
+        "0": "y_lamp"
+      },
+      "name": "default"
+    },
+    "r": {
+      "map": {
+        "0": "r_lamp"
+      },
+      "name": "r"
+    },
+    "g": {
+      "map": {
+        "0": "g_lamp"
+      },
+      "name": "g"
+    },
+    "gon": {
+      "map": {
+        "0": "g_lamp_on"
+      },
+      "name": "gon"
+    },
+    "yon": {
+      "map": {
+        "0": "y_lamp_on"
+      },
+      "name": "yon"
+    },
+    "b": {
+      "map": {
+        "0": "b_lamp"
+      },
+      "name": "b"
+    },
+    "bon": {
+      "map": {
+        "0": "b_lamp_on"
+      },
+      "name": "bon"
+    }
+  }
+}

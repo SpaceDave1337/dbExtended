@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:red_dye"
+    },
+    "3": {
+      "item": "minecraft:red_dye"
+    },
+    "4": {
+      "tag": "forge:ingots/steel"
+    },
+    "5": {
+      "item": "minecraft:red_dye"
+    },
+    "7": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:oneway_sign",
+    "count": 4
+  }
+}

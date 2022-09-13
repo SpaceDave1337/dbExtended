@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/strippedblock_horizontal"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/strippedblock_horizontal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/strippedblock_horizontal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/strippedblock_horizontal",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:ingots/steel"
+      },
+      {
+        "value": "TAG:forge:ingots/steel"
+      },
+      {
+        "value": "TAG:forge:ingots/steel"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "TAG:forge:ingots/steel"
+      },
+      {
+        "value": "CUSTOM:BasicCircuit"
+      },
+      {
+        "value": "TAG:forge:ingots/steel"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ComputerTerminalSteel"
+    },
+    "name": "rec_computer_terminal_steel",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "davebuildingmod:custom/rubberduck",
+  "textures": {
+    "all": "davebuildingmod:blocks/orange_concrete",
+    "particle": "davebuildingmod:blocks/orange_concrete",
+    "0": "davebuildingmod:blocks/yellow_terracotta",
+    "1": "davebuildingmod:blocks/vantablack",
+    "2": "davebuildingmod:blocks/orange_concrete"
+  }
+}

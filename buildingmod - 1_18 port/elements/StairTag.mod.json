@@ -1,0 +1,65 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:SteelStairs"
+      },
+      {
+        "value": "CUSTOM:BlackSteelStairs"
+      },
+      {
+        "value": "CUSTOM:RedSteelStairs"
+      },
+      {
+        "value": "CUSTOM:GreenSteelStairs"
+      },
+      {
+        "value": "CUSTOM:BrownSteelStairs"
+      },
+      {
+        "value": "CUSTOM:BlueSteelStairs"
+      },
+      {
+        "value": "CUSTOM:PurpleSteelStairs"
+      },
+      {
+        "value": "CUSTOM:CyanSteelStairs"
+      },
+      {
+        "value": "CUSTOM:LightGraySteelStairs"
+      },
+      {
+        "value": "CUSTOM:GraySteelStairs"
+      },
+      {
+        "value": "CUSTOM:PinkSteelStairs"
+      },
+      {
+        "value": "CUSTOM:LimeSteelStairs"
+      },
+      {
+        "value": "CUSTOM:YellowSteelStairs"
+      },
+      {
+        "value": "CUSTOM:LightBlueSteelStairs"
+      },
+      {
+        "value": "CUSTOM:MagentaSteelStairs"
+      },
+      {
+        "value": "CUSTOM:OrangeSteelStairs"
+      },
+      {
+        "value": "CUSTOM:WhiteSteelStairs"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "stairs",
+    "namespace": "minecraft"
+  }
+}

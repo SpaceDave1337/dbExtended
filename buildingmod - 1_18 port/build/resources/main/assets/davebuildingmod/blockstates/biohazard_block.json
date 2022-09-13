@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/biohazard_block"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/biohazard_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/biohazard_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/biohazard_block",
+      "y": 270
+    }
+  }
+}

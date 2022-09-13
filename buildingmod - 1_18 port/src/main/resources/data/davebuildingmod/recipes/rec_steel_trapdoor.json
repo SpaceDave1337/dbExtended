@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "davebuildingmod:steel_seemless"
+    },
+    "1": {
+      "item": "davebuildingmod:steel_seemless"
+    },
+    "2": {
+      "item": "davebuildingmod:steel_seemless"
+    },
+    "3": {
+      "item": "davebuildingmod:steel_seemless"
+    },
+    "4": {
+      "item": "davebuildingmod:steel_seemless"
+    },
+    "5": {
+      "item": "davebuildingmod:steel_seemless"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:steel_trapdoor",
+    "count": 3
+  }
+}

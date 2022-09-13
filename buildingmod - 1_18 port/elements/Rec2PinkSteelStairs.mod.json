@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PinkSteelPlating"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PinkSteelPlating"
+      },
+      {
+        "value": "CUSTOM:PinkSteelPlating"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PinkSteelPlating"
+      },
+      {
+        "value": "CUSTOM:PinkSteelPlating"
+      },
+      {
+        "value": "CUSTOM:PinkSteelPlating"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PinkSteelStairs"
+    },
+    "name": "rec_2_pink_steel_stairs",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "davebuildingmod:blue_steel_tank"
+    },
+    "3": {
+      "item": "davebuildingmod:blue_steel_tank"
+    },
+    "4": {
+      "item": "minecraft:water_bucket"
+    },
+    "5": {
+      "item": "davebuildingmod:blue_steel_tank"
+    },
+    "7": {
+      "item": "davebuildingmod:blue_steel_tank"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:blue_boiler",
+    "count": 2
+  }
+}

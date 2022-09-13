@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "yellow_terracotta",
+        "1": "vantablack",
+        "2": "orange_concrete"
+      },
+      "name": "default"
+    }
+  }
+}

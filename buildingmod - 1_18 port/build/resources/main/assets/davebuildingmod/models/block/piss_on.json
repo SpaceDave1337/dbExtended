@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/lime_stained_glass",
+    "up": "davebuildingmod:blocks/lime_stained_glass",
+    "north": "davebuildingmod:blocks/lime_stained_glass",
+    "east": "davebuildingmod:blocks/lime_stained_glass",
+    "south": "davebuildingmod:blocks/lime_stained_glass",
+    "west": "davebuildingmod:blocks/lime_stained_glass",
+    "particle": "davebuildingmod:blocks/lime_stained_glass"
+  }
+}

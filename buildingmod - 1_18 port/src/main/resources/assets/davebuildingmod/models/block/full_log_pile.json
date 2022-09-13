@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/logpile_top",
+    "up": "davebuildingmod:blocks/logpile_top",
+    "north": "davebuildingmod:blocks/logpile_side",
+    "east": "davebuildingmod:blocks/logpile_side",
+    "south": "davebuildingmod:blocks/logpile_side",
+    "west": "davebuildingmod:blocks/logpile_side",
+    "particle": "davebuildingmod:blocks/logpile_top"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/arrow_left_sign"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/arrow_left_sign",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/arrow_left_sign",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/arrow_left_sign",
+      "y": 270
+    }
+  }
+}

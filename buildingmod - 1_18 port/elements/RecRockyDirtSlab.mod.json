@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RockyDirt"
+      },
+      {
+        "value": "CUSTOM:RockyDirt"
+      },
+      {
+        "value": "CUSTOM:RockyDirt"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RockyDirtSlab"
+    },
+    "name": "rec_rocky_dirt_slab",
+    "namespace": "mod"
+  }
+}

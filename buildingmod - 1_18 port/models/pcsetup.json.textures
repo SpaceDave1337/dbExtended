@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "anvil",
+        "1": "computer_special"
+      },
+      "name": "default"
+    }
+  }
+}

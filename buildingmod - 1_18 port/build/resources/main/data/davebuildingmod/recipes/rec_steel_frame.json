@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "davebuildingmod:steel_plating"
+    },
+    "2": {
+      "item": "davebuildingmod:steel_plating"
+    },
+    "4": {
+      "tag": "forge:ingots/steel"
+    },
+    "6": {
+      "item": "davebuildingmod:steel_plating"
+    },
+    "8": {
+      "item": "davebuildingmod:steel_plating"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:steel_frame",
+    "count": 8
+  }
+}

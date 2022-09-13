@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/track_end"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/track_end",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/track_end",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/track_end",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/black_chair"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/black_chair",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/black_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/black_chair",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackSteelPlating"
+      },
+      {
+        "value": "CUSTOM:BlackSteelPlating"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackSteelPlating"
+      },
+      {
+        "value": "CUSTOM:BlackSteelPlating"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlackSteelTrapdoor"
+    },
+    "name": "rec_black_steel_trapdoor",
+    "namespace": "mod"
+  }
+}

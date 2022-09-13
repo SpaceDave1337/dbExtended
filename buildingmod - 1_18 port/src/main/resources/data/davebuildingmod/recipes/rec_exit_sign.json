@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_nugget"
+    },
+    "1": {
+      "item": "minecraft:lime_dye"
+    },
+    "2": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:exit_sign",
+    "count": 1
+  }
+}

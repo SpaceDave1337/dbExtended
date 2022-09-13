@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_dye"
+    },
+    "1": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:green_light_off",
+    "count": 4
+  }
+}

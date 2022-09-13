@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/magenta_steel",
+    "up": "davebuildingmod:blocks/magenta_steel",
+    "north": "davebuildingmod:blocks/magenta_steel",
+    "east": "davebuildingmod:blocks/magenta_steel",
+    "south": "davebuildingmod:blocks/magenta_steel",
+    "west": "davebuildingmod:blocks/magenta_steel",
+    "particle": "davebuildingmod:blocks/magenta_steel"
+  }
+}

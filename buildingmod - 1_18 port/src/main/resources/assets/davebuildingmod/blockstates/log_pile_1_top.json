@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/log_pile_1_top"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/log_pile_1_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/log_pile_1_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/log_pile_1_top",
+      "y": 270
+    }
+  }
+}

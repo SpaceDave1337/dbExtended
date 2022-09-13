@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/blue_steel",
+    "up": "davebuildingmod:blocks/blue_steel",
+    "north": "davebuildingmod:blocks/blue_steel",
+    "east": "davebuildingmod:blocks/blue_steel",
+    "south": "davebuildingmod:blocks/blue_steel",
+    "west": "davebuildingmod:blocks/blue_steel",
+    "particle": "davebuildingmod:blocks/blue_steel"
+  }
+}
