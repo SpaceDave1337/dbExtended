@@ -1,0 +1,100 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "white_steel"
+      },
+      "name": "default"
+    },
+    "light_cray": {
+      "map": {
+        "0": "light_gray_steel"
+      },
+      "name": "light_cray"
+    },
+    "gray": {
+      "map": {
+        "0": "gray_steel"
+      },
+      "name": "gray"
+    },
+    "black": {
+      "map": {
+        "0": "black_steel"
+      },
+      "name": "black"
+    },
+    "brown": {
+      "map": {
+        "0": "brown_steel"
+      },
+      "name": "brown"
+    },
+    "red": {
+      "map": {
+        "0": "red_steel"
+      },
+      "name": "red"
+    },
+    "orange": {
+      "map": {
+        "0": "orange_steel"
+      },
+      "name": "orange"
+    },
+    "yellow": {
+      "map": {
+        "0": "yellow_steel"
+      },
+      "name": "yellow"
+    },
+    "lime": {
+      "map": {
+        "0": "lime_steel"
+      },
+      "name": "lime"
+    },
+    "green": {
+      "map": {
+        "0": "green_steel"
+      },
+      "name": "green"
+    },
+    "cyan": {
+      "map": {
+        "0": "cyan_steel"
+      },
+      "name": "cyan"
+    },
+    "light_blue": {
+      "map": {
+        "0": "light_blue_steel"
+      },
+      "name": "light_blue"
+    },
+    "blue": {
+      "map": {
+        "0": "blue_steel"
+      },
+      "name": "blue"
+    },
+    "purple": {
+      "map": {
+        "0": "purple_steel"
+      },
+      "name": "purple"
+    },
+    "magenta": {
+      "map": {
+        "0": "magenta_steel"
+      },
+      "name": "magenta"
+    },
+    "pink": {
+      "map": {
+        "0": "pink_steel"
+      },
+      "name": "pink"
+    }
+  }
+}

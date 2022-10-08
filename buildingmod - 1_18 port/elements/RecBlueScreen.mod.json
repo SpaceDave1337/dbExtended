@@ -5,24 +5,18 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 8,
+    "recipeRetstackSize": 4,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": "Items.DYE#18"
       },
       {
-        "value": "Items.DYE#18"
-      },
-      {
-        "value": "Items.DYE#18"
-      },
-      {
         "value": "Blocks.STONE#0"
       },
       {
-        "value": "Blocks.STONE#0"
+        "value": ""
       },
       {
         "value": "Blocks.STONE#0"
@@ -31,10 +25,16 @@
         "value": "Items.DYE#18"
       },
       {
-        "value": "Items.DYE#18"
+        "value": ""
       },
       {
-        "value": "Items.DYE#18"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {

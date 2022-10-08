@@ -2,7 +2,7 @@
   "parent": "davebuildingmod:custom/boiler",
   "textures": {
     "all": "davebuildingmod:blocks/purple_boiler",
-    "particle": "davebuildingmod:blocks/polished_andesite",
-    "cover": "davebuildingmod:blocks/crushing_wheel"
+    "particle": "davebuildingmod:blocks/gilded_purple_steel_tank",
+    "cover": "davebuildingmod:blocks/purple_boiler"
   }
 }

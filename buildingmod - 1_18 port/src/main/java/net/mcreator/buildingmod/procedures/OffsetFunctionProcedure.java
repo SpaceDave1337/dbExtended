@@ -20,7 +20,7 @@ public class OffsetFunctionProcedure {
 			BlockEntity _blockEntity = world.getBlockEntity(_bp);
 			BlockState _bs = world.getBlockState(_bp);
 			if (_blockEntity != null)
-				_blockEntity.getTileData().putDouble("Y-Offset", new Object() {
+				_blockEntity.getTileData().putDouble("Y-Offset", Math.max(new Object() {
 					double convert(String s) {
 						try {
 							return Double.parseDouble(s.trim());
@@ -28,7 +28,7 @@ public class OffsetFunctionProcedure {
 						}
 						return 0;
 					}
-				}.convert(guistate.containsKey("text:YOffset") ? ((EditBox) guistate.get("text:YOffset")).getValue() : ""));
+				}.convert(guistate.containsKey("text:YOffset") ? ((EditBox) guistate.get("text:YOffset")).getValue() : ""), 128));
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 		}
@@ -37,7 +37,7 @@ public class OffsetFunctionProcedure {
 			BlockEntity _blockEntity = world.getBlockEntity(_bp);
 			BlockState _bs = world.getBlockState(_bp);
 			if (_blockEntity != null)
-				_blockEntity.getTileData().putDouble("Size", new Object() {
+				_blockEntity.getTileData().putDouble("Size", (new Object() {
 					double convert(String s) {
 						try {
 							return Double.parseDouble(s.trim());
@@ -45,7 +45,7 @@ public class OffsetFunctionProcedure {
 						}
 						return 0;
 					}
-				}.convert(guistate.containsKey("text:Size") ? ((EditBox) guistate.get("text:Size")).getValue() : ""));
+				}.convert(guistate.containsKey("text:Size") ? ((EditBox) guistate.get("text:Size")).getValue() : "") + 128));
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 		}

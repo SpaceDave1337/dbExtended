@@ -4,7 +4,7 @@
       "map": {
         "0": "steel_plating",
         "1": "steel_seemless",
-        "missing": ""
+        "missing": "steel_seemless"
       },
       "name": "default"
     }

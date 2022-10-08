@@ -479,6 +479,8 @@ public class DavebuildingmodModItems {
 	public static final RegistryObject<Item> BLACK_GUILDED_BOILER = block(DavebuildingmodModBlocks.BLACK_GUILDED_BOILER,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> TRACK_END = block(DavebuildingmodModBlocks.TRACK_END, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> GAUGE_OUTER = block(DavebuildingmodModBlocks.GAUGE_OUTER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> GAUGE_INNER = block(DavebuildingmodModBlocks.GAUGE_INNER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> ALARM_SIGN = block(DavebuildingmodModBlocks.ALARM_SIGN, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> NO_ENTRY_SIGN = block(DavebuildingmodModBlocks.NO_ENTRY_SIGN, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> ONEWAY_SIGN = block(DavebuildingmodModBlocks.ONEWAY_SIGN, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
@@ -596,9 +598,44 @@ public class DavebuildingmodModItems {
 	public static final RegistryObject<Item> ONEWAY_LABORATORY_BLOCK = block(DavebuildingmodModBlocks.ONEWAY_LABORATORY_BLOCK,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> VANTA_BLACK = block(DavebuildingmodModBlocks.VANTA_BLACK, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> ULTRA_WHITE = block(DavebuildingmodModBlocks.ULTRA_WHITE, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> GREEN_SCREEN = block(DavebuildingmodModBlocks.GREEN_SCREEN, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> BLUE_SCREEN = block(DavebuildingmodModBlocks.BLUE_SCREEN, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> MAGENTA_SCREEN = block(DavebuildingmodModBlocks.MAGENTA_SCREEN,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> RUBBER_DUCK = block(DavebuildingmodModBlocks.RUBBER_DUCK, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_WHITE = block(DavebuildingmodModBlocks.COW_CATCHER_WHITE,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_LIGHT_GRAY = block(DavebuildingmodModBlocks.COW_CATCHER_LIGHT_GRAY,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_GRAY = block(DavebuildingmodModBlocks.COW_CATCHER_GRAY,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_BLACK = block(DavebuildingmodModBlocks.COW_CATCHER_BLACK,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_BROWN = block(DavebuildingmodModBlocks.COW_CATCHER_BROWN,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_RED = block(DavebuildingmodModBlocks.COW_CATCHER_RED,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_ORANGE = block(DavebuildingmodModBlocks.COW_CATCHER_ORANGE,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_YELLOW = block(DavebuildingmodModBlocks.COW_CATCHER_YELLOW,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_LIME = block(DavebuildingmodModBlocks.COW_CATCHER_LIME,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_GREEN = block(DavebuildingmodModBlocks.COW_CATCHER_GREEN,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_CYAN = block(DavebuildingmodModBlocks.COW_CATCHER_CYAN,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_LIGHT_BLUE = block(DavebuildingmodModBlocks.COW_CATCHER_LIGHT_BLUE,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_BLUE = block(DavebuildingmodModBlocks.COW_CATCHER_BLUE,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_PURPLE = block(DavebuildingmodModBlocks.COW_CATCHER_PURPLE,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_MAGENTA = block(DavebuildingmodModBlocks.COW_CATCHER_MAGENTA,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_PINK = block(DavebuildingmodModBlocks.COW_CATCHER_PINK,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> LIGHTON = block(DavebuildingmodModBlocks.LIGHTON, null);
 	public static final RegistryObject<Item> ALARM_LIGHTON = block(DavebuildingmodModBlocks.ALARM_LIGHTON, null);
 	public static final RegistryObject<Item> GREEN_LIGHT_ON = block(DavebuildingmodModBlocks.GREEN_LIGHT_ON, null);

@@ -100,7 +100,6 @@ public class RedBoilerBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.RED_BOILER.get(), renderType -> renderType == RenderType.cutoutMipped());
+		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.RED_BOILER.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

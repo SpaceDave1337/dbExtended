@@ -100,7 +100,6 @@ public class BrownBoilerBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.BROWN_BOILER.get(), renderType -> renderType == RenderType.cutoutMipped());
+		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.BROWN_BOILER.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

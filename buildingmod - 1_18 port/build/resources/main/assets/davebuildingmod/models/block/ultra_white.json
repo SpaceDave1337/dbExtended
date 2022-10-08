@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/superwhite",
+    "up": "davebuildingmod:blocks/superwhite",
+    "north": "davebuildingmod:blocks/superwhite",
+    "east": "davebuildingmod:blocks/superwhite",
+    "south": "davebuildingmod:blocks/superwhite",
+    "west": "davebuildingmod:blocks/superwhite",
+    "particle": "davebuildingmod:blocks/superwhite"
+  }
+}

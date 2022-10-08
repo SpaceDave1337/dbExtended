@@ -1,0 +1,9 @@
+{
+  "parent": "davebuildingmod:custom/gauge_inner",
+  "textures": {
+    "all": "davebuildingmod:blocks/boiler_gauge",
+    "particle": "davebuildingmod:blocks/boiler_gauge",
+    "0": "davebuildingmod:blocks/boiler_gauge",
+    "missing": "davebuildingmod:blocks/boiler_gauge"
+  }
+}

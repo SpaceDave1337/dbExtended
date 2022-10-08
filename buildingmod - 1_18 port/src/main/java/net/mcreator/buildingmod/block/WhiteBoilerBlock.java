@@ -100,7 +100,6 @@ public class WhiteBoilerBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.WHITE_BOILER.get(), renderType -> renderType == RenderType.cutoutMipped());
+		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.WHITE_BOILER.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

@@ -100,8 +100,6 @@ public class PurpleGildedBoilerBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.PURPLE_GILDED_BOILER.get(),
-				renderType -> renderType == RenderType.cutoutMipped());
+		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.PURPLE_GILDED_BOILER.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

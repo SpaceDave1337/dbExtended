@@ -109,7 +109,6 @@ public class CopperBoilerBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.COPPER_BOILER.get(), renderType -> renderType == RenderType.cutoutMipped());
+		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.COPPER_BOILER.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

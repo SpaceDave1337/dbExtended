@@ -100,8 +100,6 @@ public class MagentaGildedBoilerBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.MAGENTA_GILDED_BOILER.get(),
-				renderType -> renderType == RenderType.cutoutMipped());
+		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.MAGENTA_GILDED_BOILER.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

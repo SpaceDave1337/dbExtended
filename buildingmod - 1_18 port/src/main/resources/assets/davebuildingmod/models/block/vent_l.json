@@ -5,6 +5,6 @@
     "particle": "davebuildingmod:blocks/steel_seemless",
     "0": "davebuildingmod:blocks/steel_plating",
     "1": "davebuildingmod:blocks/steel_seemless",
-    "missing": "davebuildingmod:blocks/"
+    "missing": "davebuildingmod:blocks/steel_seemless"
   }
 }

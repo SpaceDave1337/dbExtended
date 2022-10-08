@@ -3,7 +3,7 @@
     "default": {
       "map": {
         "0": "books",
-        "missing": ""
+        "missing": "books"
       },
       "name": "default"
     }

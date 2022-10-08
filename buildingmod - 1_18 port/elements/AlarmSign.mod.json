@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "alarm_sign",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

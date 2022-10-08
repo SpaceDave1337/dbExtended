@@ -4,6 +4,6 @@
     "all": "davebuildingmod:blocks/books",
     "particle": "davebuildingmod:blocks/books",
     "0": "davebuildingmod:blocks/books",
-    "missing": "davebuildingmod:blocks/"
+    "missing": "davebuildingmod:blocks/books"
   }
 }

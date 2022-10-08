@@ -100,7 +100,6 @@ public class LightBlueBoilerBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.LIGHT_BLUE_BOILER.get(), renderType -> renderType == RenderType.cutoutMipped());
+		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.LIGHT_BLUE_BOILER.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

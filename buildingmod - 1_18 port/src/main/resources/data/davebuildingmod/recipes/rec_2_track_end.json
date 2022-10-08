@@ -11,8 +11,8 @@
       "tag": "minecraft:planks"
     }
   ],
-  "result": {
+  "result": [
     "item": "davebuildingmod:track_end",
     "count": 1
-  }
+  ]
 }

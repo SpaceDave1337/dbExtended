@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "boiler_gauge",
+        "missing": "boiler_gauge"
+      },
+      "name": "default"
+    }
+  }
+}

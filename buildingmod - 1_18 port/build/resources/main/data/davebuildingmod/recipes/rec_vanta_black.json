@@ -1,41 +1,21 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "012",
-    "345",
-    "678"
-  ],
-  "key": {
-    "0": {
-      "item": "minecraft:black_dye"
-    },
-    "1": {
-      "item": "minecraft:black_dye"
-    },
-    "2": {
-      "item": "minecraft:black_dye"
-    },
-    "3": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "minecraft:stone"
     },
-    "4": {
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
       "item": "minecraft:stone"
-    },
-    "5": {
-      "item": "minecraft:stone"
-    },
-    "6": {
-      "item": "minecraft:black_dye"
-    },
-    "7": {
-      "item": "minecraft:black_dye"
-    },
-    "8": {
-      "item": "minecraft:black_dye"
     }
-  },
+  ],
   "result": {
     "item": "davebuildingmod:vanta_black",
-    "count": 8
+    "count": 4
   }
 }

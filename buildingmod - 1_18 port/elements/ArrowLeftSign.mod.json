@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "arrow_left_sign",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

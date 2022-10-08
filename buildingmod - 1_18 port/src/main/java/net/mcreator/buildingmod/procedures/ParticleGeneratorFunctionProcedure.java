@@ -28,14 +28,14 @@ public class ParticleGeneratorFunctionProcedure {
 				return -1;
 			}
 		}.getValue(world, new BlockPos(x, y, z), "Y-Offset");
-		Size = (new Object() {
+		Size = Math.max((new Object() {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
 					return blockEntity.getTileData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos(x, y, z), "Size")) / 2;
+		}.getValue(world, new BlockPos(x, y, z), "Size")) / 2, 128);
 		Count = (new Object() {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);

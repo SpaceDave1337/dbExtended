@@ -100,8 +100,6 @@ public class LightGrayGildedBoilerBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.LIGHT_GRAY_GILDED_BOILER.get(),
-				renderType -> renderType == RenderType.cutoutMipped());
+		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.LIGHT_GRAY_GILDED_BOILER.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

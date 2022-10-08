@@ -100,8 +100,6 @@ public class BlackGuildedBoilerBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.BLACK_GUILDED_BOILER.get(),
-				renderType -> renderType == RenderType.cutoutMipped());
+		ItemBlockRenderTypes.setRenderLayer(DavebuildingmodModBlocks.BLACK_GUILDED_BOILER.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }
