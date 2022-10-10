@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "circuit_vocals",
+    "texture": "vocalcard",
     "customModelName": "Normal",
-    "name": "Warning Card",
+    "name": "Vocal Warning",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:DavesModTab"
@@ -32,6 +32,9 @@
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
     "isMeat": false,
     "isAlwaysEdible": false,
     "animation": "eat"

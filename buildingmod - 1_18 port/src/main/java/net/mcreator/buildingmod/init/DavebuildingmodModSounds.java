@@ -20,40 +20,39 @@ public class DavebuildingmodModSounds {
 	static {
 		REGISTRY.put(new ResourceLocation("davebuildingmod", "nuclear_siren"),
 				new SoundEvent(new ResourceLocation("davebuildingmod", "nuclear_siren")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_emtpy"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_emtpy")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_warning"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_warning")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_attention"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_attention")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_closehatch"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_closehatch")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_openhatch"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_openhatch")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_bootup"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_bootup")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_standby"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_standby")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_experiment"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_experiment")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_facilityleave"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_facilityleave")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_reactormeltdown"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_reactormeltdown")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_airlock"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_airlock")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_systemfail"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_systemfail")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_calculating"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_calculating")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_systemintegrity"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_systemintegrity")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_selfdestruct"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_selfdestruct")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocals_containmentfail"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocals_containmentfail")));
-		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_lifesupport"),
-				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_lifesupport")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_labrepair"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_labrepair")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_experiment_start"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_experiment_start")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_reactor_breach"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_reactor_breach")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_systems_loading"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_systems_loading")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_decontamination"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_decontamination")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_decompression"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_decompression")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_lockdown"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_lockdown")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_lifesystem_fail"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_lifesystem_fail")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_leave_facility"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_leave_facility")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_unauthorized_activity"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_unauthorized_activity")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_evacuate_complex"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_evacuate_complex")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_attention"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_attention")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_warning"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_warning")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_alert"), new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_alert")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_nuke_alert"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_nuke_alert")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_emergency_exit"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_emergency_exit")));
+		REGISTRY.put(new ResourceLocation("davebuildingmod", "vocal_security_breach"),
+				new SoundEvent(new ResourceLocation("davebuildingmod", "vocal_security_breach")));
 	}
 
 	@SubscribeEvent

@@ -1,0 +1,8 @@
+{
+  "parent": "davebuildingmod:custom/thomas_face",
+  "textures": {
+    "all": "davebuildingmod:blocks/thomas_face",
+    "particle": "davebuildingmod:blocks/thomas_face",
+    "0": "davebuildingmod:blocks/thomas_face"
+  }
+}

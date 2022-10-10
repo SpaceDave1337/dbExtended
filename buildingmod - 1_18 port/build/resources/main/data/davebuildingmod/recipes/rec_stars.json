@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "davebuildingmod:vanta_black"
+    },
+    {
+      "item": "davebuildingmod:vanta_black"
+    },
+    {
+      "item": "davebuildingmod:vanta_black"
+    },
+    {
+      "item": "davebuildingmod:vanta_black"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "davebuildingmod:vanta_black"
+    },
+    {
+      "item": "davebuildingmod:vanta_black"
+    },
+    {
+      "item": "davebuildingmod:vanta_black"
+    },
+    {
+      "item": "davebuildingmod:vanta_black"
+    }
+  ],
+  "result": {
+    "item": "davebuildingmod:stars",
+    "count": 8
+  }
+}

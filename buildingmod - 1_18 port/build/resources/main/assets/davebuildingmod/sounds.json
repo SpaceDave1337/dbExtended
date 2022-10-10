@@ -9,157 +9,155 @@
       }
     ]
   },
-  "vocals_emtpy": {
+  "vocal_labrepair": {
     "category": "neutral",
-    "subtitle": "subtitles.vocals_emtpy",
     "sounds": [
       {
-        "name": "davebuildingmod:emtpy_vocals",
+        "name": "davebuildingmod:vocal_labrepair",
         "stream": false
       }
     ]
   },
-  "vocals_warning": {
+  "vocal_experiment_start": {
     "category": "neutral",
-    "subtitle": "subtitles.vocals_warning",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_warning",
+        "name": "davebuildingmod:vocal_experiment",
         "stream": false
       }
     ]
   },
-  "vocals_attention": {
+  "vocal_reactor_breach": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_attention",
+        "name": "davebuildingmod:vocal_reactorbreach",
         "stream": false
       }
     ]
   },
-  "vocals_closehatch": {
+  "vocal_systems_loading": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_closehatch",
+        "name": "davebuildingmod:vocal_systemsloading",
         "stream": false
       }
     ]
   },
-  "vocals_openhatch": {
+  "vocal_decontamination": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_openhatch",
+        "name": "davebuildingmod:vocal_decontamination",
         "stream": false
       }
     ]
   },
-  "vocals_bootup": {
+  "vocal_decompression": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_bootup",
+        "name": "davebuildingmod:vocal_decompression_in_progress",
         "stream": false
       }
     ]
   },
-  "vocals_standby": {
+  "vocal_lockdown": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_standby",
+        "name": "davebuildingmod:vocal_lockdown",
         "stream": false
       }
     ]
   },
-  "vocals_experiment": {
+  "vocal_lifesystem_fail": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_experiment",
+        "name": "davebuildingmod:vocal_lifesystemfail",
         "stream": false
       }
     ]
   },
-  "vocals_facilityleave": {
+  "vocal_leave_facility": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_facilityleave",
+        "name": "davebuildingmod:vocal_leavefacility",
         "stream": false
       }
     ]
   },
-  "vocals_reactormeltdown": {
+  "vocal_unauthorized_activity": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_reactormeltdown",
+        "name": "davebuildingmod:vocal_unauthorizedactivity",
         "stream": false
       }
     ]
   },
-  "vocals_airlock": {
+  "vocal_evacuate_complex": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_airlock",
+        "name": "davebuildingmod:vocal_evacuatecomplex",
         "stream": false
       }
     ]
   },
-  "vocals_systemfail": {
+  "vocal_attention": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_systemfail",
+        "name": "davebuildingmod:vocal_attention",
         "stream": false
       }
     ]
   },
-  "vocals_calculating": {
+  "vocal_warning": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_calculating",
+        "name": "davebuildingmod:vocal_warning",
         "stream": false
       }
     ]
   },
-  "vocal_systemintegrity": {
+  "vocal_alert": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_systemintegrity",
+        "name": "davebuildingmod:vocal_alert",
         "stream": false
       }
     ]
   },
-  "vocals_selfdestruct": {
+  "vocal_nuke_alert": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_selfdestruct",
+        "name": "davebuildingmod:nukealert",
         "stream": false
       }
     ]
   },
-  "vocals_containmentfail": {
+  "vocal_emergency_exit": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_containmentfail",
+        "name": "davebuildingmod:emergencyexit",
         "stream": false
       }
     ]
   },
-  "vocal_lifesupport": {
+  "vocal_security_breach": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "davebuildingmod:vocals_lifesupport",
+        "name": "davebuildingmod:securitybreach",
         "stream": false
       }
     ]

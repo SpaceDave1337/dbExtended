@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/stars",
+    "up": "davebuildingmod:blocks/stars",
+    "north": "davebuildingmod:blocks/stars",
+    "east": "davebuildingmod:blocks/stars",
+    "south": "davebuildingmod:blocks/stars",
+    "west": "davebuildingmod:blocks/stars",
+    "particle": "davebuildingmod:blocks/stars"
+  }
+}

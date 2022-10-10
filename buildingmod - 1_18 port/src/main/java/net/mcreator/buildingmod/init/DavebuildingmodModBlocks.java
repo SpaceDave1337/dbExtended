@@ -28,7 +28,6 @@ import net.mcreator.buildingmod.block.YellowChairBlock;
 import net.mcreator.buildingmod.block.YellowBoilerBlock;
 import net.mcreator.buildingmod.block.YellowArrowRightBlock;
 import net.mcreator.buildingmod.block.YellowArrowLeftBlock;
-import net.mcreator.buildingmod.block.WhiteTrainLampBlock;
 import net.mcreator.buildingmod.block.WhiteSteelWallBlock;
 import net.mcreator.buildingmod.block.WhiteSteelTrapdoorBlock;
 import net.mcreator.buildingmod.block.WhiteSteelTankBlock;
@@ -49,6 +48,7 @@ import net.mcreator.buildingmod.block.VantaBlackBlock;
 import net.mcreator.buildingmod.block.UltraWhiteBlock;
 import net.mcreator.buildingmod.block.TungstenCarbiteBlock;
 import net.mcreator.buildingmod.block.TrackEndBlock;
+import net.mcreator.buildingmod.block.ThomasFaceBlock;
 import net.mcreator.buildingmod.block.StrippedblockHorizontalBlock;
 import net.mcreator.buildingmod.block.StripedblockMiddleBlock;
 import net.mcreator.buildingmod.block.StripedblockBlock;
@@ -66,6 +66,7 @@ import net.mcreator.buildingmod.block.SteelFrameBlock;
 import net.mcreator.buildingmod.block.SteelDoorBlock;
 import net.mcreator.buildingmod.block.SteelColoumnBlock;
 import net.mcreator.buildingmod.block.SteelBlockBlock;
+import net.mcreator.buildingmod.block.StarsBlock;
 import net.mcreator.buildingmod.block.SoundGeneratorBlock;
 import net.mcreator.buildingmod.block.SoftAirBlock;
 import net.mcreator.buildingmod.block.Skeleton6Block;
@@ -408,10 +409,6 @@ public class DavebuildingmodModBlocks {
 	public static final RegistryObject<Block> VENT_L = REGISTRY.register("vent_l", () -> new VentLBlock());
 	public static final RegistryObject<Block> VENT_L_UP = REGISTRY.register("vent_l_up", () -> new VentLUpBlock());
 	public static final RegistryObject<Block> VENT_L_DOWN = REGISTRY.register("vent_l_down", () -> new VentLDownBlock());
-	public static final RegistryObject<Block> CREATE_BOILER = REGISTRY.register("create_boiler", () -> new CreateBoilerBlock());
-	public static final RegistryObject<Block> COPPER_BOILER = REGISTRY.register("copper_boiler", () -> new CopperBoilerBlock());
-	public static final RegistryObject<Block> ZINC_BOILER = REGISTRY.register("zinc_boiler", () -> new ZincBoilerBlock());
-	public static final RegistryObject<Block> BRASS_BOILER = REGISTRY.register("brass_boiler", () -> new BrassBoilerBlock());
 	public static final RegistryObject<Block> WHITE_STEEL_PLATING = REGISTRY.register("white_steel_plating", () -> new WhiteSteelPlatingBlock());
 	public static final RegistryObject<Block> WHITE_STEEL_STAIRS = REGISTRY.register("white_steel_stairs", () -> new WhiteSteelStairsBlock());
 	public static final RegistryObject<Block> WHITE_STEEL_SLAB = REGISTRY.register("white_steel_slab", () -> new WhiteSteelSlabBlock());
@@ -422,6 +419,7 @@ public class DavebuildingmodModBlocks {
 			() -> new WhiteGildedSteelTankBlock());
 	public static final RegistryObject<Block> WHITE_BOILER = REGISTRY.register("white_boiler", () -> new WhiteBoilerBlock());
 	public static final RegistryObject<Block> WHITE_GILDED_BOILER = REGISTRY.register("white_gilded_boiler", () -> new WhiteGildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_WHITE = REGISTRY.register("cow_catcher_white", () -> new CowCatcherWhiteBlock());
 	public static final RegistryObject<Block> ORANGE_STEEL_PLATING = REGISTRY.register("orange_steel_plating", () -> new OrangeSteelPlatingBlock());
 	public static final RegistryObject<Block> ORANGE_STEEL_STAIRS = REGISTRY.register("orange_steel_stairs", () -> new OrangeSteelStairsBlock());
 	public static final RegistryObject<Block> ORANGE_STEEL_SLAB = REGISTRY.register("orange_steel_slab", () -> new OrangeSteelSlabBlock());
@@ -433,6 +431,7 @@ public class DavebuildingmodModBlocks {
 			() -> new OrangeGildedSteelTankBlock());
 	public static final RegistryObject<Block> ORANGE_BOILER = REGISTRY.register("orange_boiler", () -> new OrangeBoilerBlock());
 	public static final RegistryObject<Block> ORANGE_GILDED_BOILER = REGISTRY.register("orange_gilded_boiler", () -> new OrangeGildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_ORANGE = REGISTRY.register("cow_catcher_orange", () -> new CowCatcherOrangeBlock());
 	public static final RegistryObject<Block> MAGENTA_STEEL_PLATING = REGISTRY.register("magenta_steel_plating",
 			() -> new MagentaSteelPlatingBlock());
 	public static final RegistryObject<Block> MAGENTA_STEEL_STAIRS = REGISTRY.register("magenta_steel_stairs", () -> new MagentaSteelStairsBlock());
@@ -446,6 +445,7 @@ public class DavebuildingmodModBlocks {
 	public static final RegistryObject<Block> MAGENTA_BOILER = REGISTRY.register("magenta_boiler", () -> new MagentaBoilerBlock());
 	public static final RegistryObject<Block> MAGENTA_GILDED_BOILER = REGISTRY.register("magenta_gilded_boiler",
 			() -> new MagentaGildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_MAGENTA = REGISTRY.register("cow_catcher_magenta", () -> new CowCatcherMagentaBlock());
 	public static final RegistryObject<Block> LIGHT_BLUE_STEEL_PLATING = REGISTRY.register("light_blue_steel_plating",
 			() -> new LightBlueSteelPlatingBlock());
 	public static final RegistryObject<Block> LIGHT_BLUE_STEEL_STAIRS = REGISTRY.register("light_blue_steel_stairs",
@@ -460,6 +460,8 @@ public class DavebuildingmodModBlocks {
 	public static final RegistryObject<Block> LIGHT_BLUE_BOILER = REGISTRY.register("light_blue_boiler", () -> new LightBlueBoilerBlock());
 	public static final RegistryObject<Block> LIGHT_BLUE_GILDED_BOILER = REGISTRY.register("light_blue_gilded_boiler",
 			() -> new LightBlueGildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_LIGHT_BLUE = REGISTRY.register("cow_catcher_light_blue",
+			() -> new CowCatcherLightBlueBlock());
 	public static final RegistryObject<Block> YELLOW_STEEL_PLATING = REGISTRY.register("yellow_steel_plating", () -> new YellowSteelPlatingBlock());
 	public static final RegistryObject<Block> YELLOW_STEEL_STAIRS = REGISTRY.register("yellow_steel_stairs", () -> new YellowSteelStairsBlock());
 	public static final RegistryObject<Block> YELLOW_STEEL_SLAB = REGISTRY.register("yellow_steel_slab", () -> new YellowSteelSlabBlock());
@@ -471,6 +473,7 @@ public class DavebuildingmodModBlocks {
 			() -> new YellowGildedSteelTankBlock());
 	public static final RegistryObject<Block> YELLOW_BOILER = REGISTRY.register("yellow_boiler", () -> new YellowBoilerBlock());
 	public static final RegistryObject<Block> YELLOW_GILDED_BOILER = REGISTRY.register("yellow_gilded_boiler", () -> new YellowGildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_YELLOW = REGISTRY.register("cow_catcher_yellow", () -> new CowCatcherYellowBlock());
 	public static final RegistryObject<Block> LIME_STEEL_PLATING = REGISTRY.register("lime_steel_plating", () -> new LimeSteelPlatingBlock());
 	public static final RegistryObject<Block> LIME_STEEL_STAIRS = REGISTRY.register("lime_steel_stairs", () -> new LimeSteelStairsBlock());
 	public static final RegistryObject<Block> LIME_STEEL_SLAB = REGISTRY.register("lime_steel_slab", () -> new LimeSteelSlabBlock());
@@ -481,6 +484,7 @@ public class DavebuildingmodModBlocks {
 			() -> new LimeGildedSteelTankBlock());
 	public static final RegistryObject<Block> LIME_BOILER = REGISTRY.register("lime_boiler", () -> new LimeBoilerBlock());
 	public static final RegistryObject<Block> LIME_GILDED_BOILER = REGISTRY.register("lime_gilded_boiler", () -> new LimeGildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_LIME = REGISTRY.register("cow_catcher_lime", () -> new CowCatcherLimeBlock());
 	public static final RegistryObject<Block> PINK_STEEL_PLATING = REGISTRY.register("pink_steel_plating", () -> new PinkSteelPlatingBlock());
 	public static final RegistryObject<Block> PINK_STEEL_STAIRS = REGISTRY.register("pink_steel_stairs", () -> new PinkSteelStairsBlock());
 	public static final RegistryObject<Block> PINK_STEEL_SLAB = REGISTRY.register("pink_steel_slab", () -> new PinkSteelSlabBlock());
@@ -491,6 +495,7 @@ public class DavebuildingmodModBlocks {
 			() -> new PinkGildedSteelTankBlock());
 	public static final RegistryObject<Block> PINK_BOILER = REGISTRY.register("pink_boiler", () -> new PinkBoilerBlock());
 	public static final RegistryObject<Block> PINK_GILDED_BOILER = REGISTRY.register("pink_gilded_boiler", () -> new PinkGildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_PINK = REGISTRY.register("cow_catcher_pink", () -> new CowCatcherPinkBlock());
 	public static final RegistryObject<Block> GRAY_STEEL_PLATING = REGISTRY.register("gray_steel_plating", () -> new GraySteelPlatingBlock());
 	public static final RegistryObject<Block> GRAY_STEEL_STAIRS = REGISTRY.register("gray_steel_stairs", () -> new GraySteelStairsBlock());
 	public static final RegistryObject<Block> GRAY_STEEL_SLAB = REGISTRY.register("gray_steel_slab", () -> new GraySteelSlabBlock());
@@ -501,6 +506,7 @@ public class DavebuildingmodModBlocks {
 			() -> new GrayGildedSteelTankBlock());
 	public static final RegistryObject<Block> GRAY_BOILER = REGISTRY.register("gray_boiler", () -> new GrayBoilerBlock());
 	public static final RegistryObject<Block> GRAY_GILDED_BOILER = REGISTRY.register("gray_gilded_boiler", () -> new GrayGildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_GRAY = REGISTRY.register("cow_catcher_gray", () -> new CowCatcherGrayBlock());
 	public static final RegistryObject<Block> LIGHT_GRAY_STEEL_PLATING = REGISTRY.register("light_gray_steel_plating",
 			() -> new LightGraySteelPlatingBlock());
 	public static final RegistryObject<Block> LIGHT_GRAY_STEEL_STAIRS = REGISTRY.register("light_gray_steel_stairs",
@@ -515,6 +521,8 @@ public class DavebuildingmodModBlocks {
 	public static final RegistryObject<Block> LIGHT_GRAY_BOILER = REGISTRY.register("light_gray_boiler", () -> new LightGrayBoilerBlock());
 	public static final RegistryObject<Block> LIGHT_GRAY_GILDED_BOILER = REGISTRY.register("light_gray_gilded_boiler",
 			() -> new LightGrayGildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_LIGHT_GRAY = REGISTRY.register("cow_catcher_light_gray",
+			() -> new CowCatcherLightGrayBlock());
 	public static final RegistryObject<Block> CYAN_STEEL_PLATING = REGISTRY.register("cyan_steel_plating", () -> new CyanSteelPlatingBlock());
 	public static final RegistryObject<Block> CYAN_STEEL_STAIRS = REGISTRY.register("cyan_steel_stairs", () -> new CyanSteelStairsBlock());
 	public static final RegistryObject<Block> CYAN_STEEL_SLAB = REGISTRY.register("cyan_steel_slab", () -> new CyanSteelSlabBlock());
@@ -525,6 +533,7 @@ public class DavebuildingmodModBlocks {
 			() -> new CyanGildedSteelTankBlock());
 	public static final RegistryObject<Block> CYAN_BOILER = REGISTRY.register("cyan_boiler", () -> new CyanBoilerBlock());
 	public static final RegistryObject<Block> CYAN_GILDED_BOILER = REGISTRY.register("cyan_gilded_boiler", () -> new CyanGildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_CYAN = REGISTRY.register("cow_catcher_cyan", () -> new CowCatcherCyanBlock());
 	public static final RegistryObject<Block> PURPLE_STEEL_PLATING = REGISTRY.register("purple_steel_plating", () -> new PurpleSteelPlatingBlock());
 	public static final RegistryObject<Block> PURPLE_STEEL_STAIRS = REGISTRY.register("purple_steel_stairs", () -> new PurpleSteelStairsBlock());
 	public static final RegistryObject<Block> PURPLE_STEEL_SLAB = REGISTRY.register("purple_steel_slab", () -> new PurpleSteelSlabBlock());
@@ -536,6 +545,7 @@ public class DavebuildingmodModBlocks {
 			() -> new PurpleGildedSteelTankBlock());
 	public static final RegistryObject<Block> PURPLE_BOILER = REGISTRY.register("purple_boiler", () -> new PurpleBoilerBlock());
 	public static final RegistryObject<Block> PURPLE_GILDED_BOILER = REGISTRY.register("purple_gilded_boiler", () -> new PurpleGildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_PURPLE = REGISTRY.register("cow_catcher_purple", () -> new CowCatcherPurpleBlock());
 	public static final RegistryObject<Block> BLUE_STEEL_PLATING = REGISTRY.register("blue_steel_plating", () -> new BlueSteelPlatingBlock());
 	public static final RegistryObject<Block> BLUE_STEEL_STAIRS = REGISTRY.register("blue_steel_stairs", () -> new BlueSteelStairsBlock());
 	public static final RegistryObject<Block> BLUE_STEEL_SLAB = REGISTRY.register("blue_steel_slab", () -> new BlueSteelSlabBlock());
@@ -546,6 +556,7 @@ public class DavebuildingmodModBlocks {
 			() -> new BlueGildedSteelTankBlock());
 	public static final RegistryObject<Block> BLUE_BOILER = REGISTRY.register("blue_boiler", () -> new BlueBoilerBlock());
 	public static final RegistryObject<Block> BLUE_GILDED_BOILER = REGISTRY.register("blue_gilded_boiler", () -> new BlueGildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_BLUE = REGISTRY.register("cow_catcher_blue", () -> new CowCatcherBlueBlock());
 	public static final RegistryObject<Block> BROWN_STEEL_PLATING = REGISTRY.register("brown_steel_plating", () -> new BrownSteelPlatingBlock());
 	public static final RegistryObject<Block> BROWN_STEEL_STAIRS = REGISTRY.register("brown_steel_stairs", () -> new BrownSteelStairsBlock());
 	public static final RegistryObject<Block> BROWN_STEEL_SLAB = REGISTRY.register("brown_steel_slab", () -> new BrownSteelSlabBlock());
@@ -556,6 +567,7 @@ public class DavebuildingmodModBlocks {
 			() -> new BrownGildedSteelTankBlock());
 	public static final RegistryObject<Block> BROWN_BOILER = REGISTRY.register("brown_boiler", () -> new BrownBoilerBlock());
 	public static final RegistryObject<Block> BROWN_GILDED_BOILER = REGISTRY.register("brown_gilded_boiler", () -> new BrownGildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_BROWN = REGISTRY.register("cow_catcher_brown", () -> new CowCatcherBrownBlock());
 	public static final RegistryObject<Block> GREEN_STEEL_PLATING = REGISTRY.register("green_steel_plating", () -> new GreenSteelPlatingBlock());
 	public static final RegistryObject<Block> GREEN_STEEL_STAIRS = REGISTRY.register("green_steel_stairs", () -> new GreenSteelStairsBlock());
 	public static final RegistryObject<Block> GREEN_STEEL_SLAB = REGISTRY.register("green_steel_slab", () -> new GreenSteelSlabBlock());
@@ -566,6 +578,7 @@ public class DavebuildingmodModBlocks {
 			() -> new GreenGildedSteelTankBlock());
 	public static final RegistryObject<Block> GREEN_BOILER = REGISTRY.register("green_boiler", () -> new GreenBoilerBlock());
 	public static final RegistryObject<Block> GREEN_GILDED_BOILER = REGISTRY.register("green_gilded_boiler", () -> new GreenGildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_GREEN = REGISTRY.register("cow_catcher_green", () -> new CowCatcherGreenBlock());
 	public static final RegistryObject<Block> RED_STEEL_PLATING = REGISTRY.register("red_steel_plating", () -> new RedSteelPlatingBlock());
 	public static final RegistryObject<Block> RED_STEEL_STAIRS = REGISTRY.register("red_steel_stairs", () -> new RedSteelStairsBlock());
 	public static final RegistryObject<Block> RED_STEEL_SLAB = REGISTRY.register("red_steel_slab", () -> new RedSteelSlabBlock());
@@ -576,6 +589,7 @@ public class DavebuildingmodModBlocks {
 			() -> new RedGuildedSteelTankBlock());
 	public static final RegistryObject<Block> RED_BOILER = REGISTRY.register("red_boiler", () -> new RedBoilerBlock());
 	public static final RegistryObject<Block> RED_GUILDED_BOILER = REGISTRY.register("red_guilded_boiler", () -> new RedGuildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_RED = REGISTRY.register("cow_catcher_red", () -> new CowCatcherRedBlock());
 	public static final RegistryObject<Block> BLACK_STEEL_PLATING = REGISTRY.register("black_steel_plating", () -> new BlackSteelPlatingBlock());
 	public static final RegistryObject<Block> BLACK_STEEL_STAIRS = REGISTRY.register("black_steel_stairs", () -> new BlackSteelStairsBlock());
 	public static final RegistryObject<Block> BLACK_STEEL_SLAB = REGISTRY.register("black_steel_slab", () -> new BlackSteelSlabBlock());
@@ -586,9 +600,15 @@ public class DavebuildingmodModBlocks {
 			() -> new BlackGuilderSteelTankBlock());
 	public static final RegistryObject<Block> BLACK_BOILER = REGISTRY.register("black_boiler", () -> new BlackBoilerBlock());
 	public static final RegistryObject<Block> BLACK_GUILDED_BOILER = REGISTRY.register("black_guilded_boiler", () -> new BlackGuildedBoilerBlock());
+	public static final RegistryObject<Block> COW_CATCHER_BLACK = REGISTRY.register("cow_catcher_black", () -> new CowCatcherBlackBlock());
+	public static final RegistryObject<Block> CREATE_BOILER = REGISTRY.register("create_boiler", () -> new CreateBoilerBlock());
+	public static final RegistryObject<Block> COPPER_BOILER = REGISTRY.register("copper_boiler", () -> new CopperBoilerBlock());
+	public static final RegistryObject<Block> ZINC_BOILER = REGISTRY.register("zinc_boiler", () -> new ZincBoilerBlock());
+	public static final RegistryObject<Block> BRASS_BOILER = REGISTRY.register("brass_boiler", () -> new BrassBoilerBlock());
 	public static final RegistryObject<Block> TRACK_END = REGISTRY.register("track_end", () -> new TrackEndBlock());
 	public static final RegistryObject<Block> GAUGE_OUTER = REGISTRY.register("gauge_outer", () -> new GaugeOuterBlock());
 	public static final RegistryObject<Block> GAUGE_INNER = REGISTRY.register("gauge_inner", () -> new GaugeInnerBlock());
+	public static final RegistryObject<Block> THOMAS_FACE = REGISTRY.register("thomas_face", () -> new ThomasFaceBlock());
 	public static final RegistryObject<Block> ALARM_SIGN = REGISTRY.register("alarm_sign", () -> new AlarmSignBlock());
 	public static final RegistryObject<Block> NO_ENTRY_SIGN = REGISTRY.register("no_entry_sign", () -> new NoEntrySignBlock());
 	public static final RegistryObject<Block> ONEWAY_SIGN = REGISTRY.register("oneway_sign", () -> new OnewaySignBlock());
@@ -677,36 +697,18 @@ public class DavebuildingmodModBlocks {
 	public static final RegistryObject<Block> ONEWAY_LABORATORY_BLOCK = REGISTRY.register("oneway_laboratory_block",
 			() -> new OnewayLaboratoryBlockBlock());
 	public static final RegistryObject<Block> VANTA_BLACK = REGISTRY.register("vanta_black", () -> new VantaBlackBlock());
+	public static final RegistryObject<Block> STARS = REGISTRY.register("stars", () -> new StarsBlock());
 	public static final RegistryObject<Block> ULTRA_WHITE = REGISTRY.register("ultra_white", () -> new UltraWhiteBlock());
 	public static final RegistryObject<Block> GREEN_SCREEN = REGISTRY.register("green_screen", () -> new GreenScreenBlock());
 	public static final RegistryObject<Block> BLUE_SCREEN = REGISTRY.register("blue_screen", () -> new BlueScreenBlock());
 	public static final RegistryObject<Block> MAGENTA_SCREEN = REGISTRY.register("magenta_screen", () -> new MagentaScreenBlock());
 	public static final RegistryObject<Block> RUBBER_DUCK = REGISTRY.register("rubber_duck", () -> new RubberDuckBlock());
-	public static final RegistryObject<Block> COW_CATCHER_WHITE = REGISTRY.register("cow_catcher_white", () -> new CowCatcherWhiteBlock());
-	public static final RegistryObject<Block> COW_CATCHER_LIGHT_GRAY = REGISTRY.register("cow_catcher_light_gray",
-			() -> new CowCatcherLightGrayBlock());
-	public static final RegistryObject<Block> COW_CATCHER_GRAY = REGISTRY.register("cow_catcher_gray", () -> new CowCatcherGrayBlock());
-	public static final RegistryObject<Block> COW_CATCHER_BLACK = REGISTRY.register("cow_catcher_black", () -> new CowCatcherBlackBlock());
-	public static final RegistryObject<Block> COW_CATCHER_BROWN = REGISTRY.register("cow_catcher_brown", () -> new CowCatcherBrownBlock());
-	public static final RegistryObject<Block> COW_CATCHER_RED = REGISTRY.register("cow_catcher_red", () -> new CowCatcherRedBlock());
-	public static final RegistryObject<Block> COW_CATCHER_ORANGE = REGISTRY.register("cow_catcher_orange", () -> new CowCatcherOrangeBlock());
-	public static final RegistryObject<Block> COW_CATCHER_YELLOW = REGISTRY.register("cow_catcher_yellow", () -> new CowCatcherYellowBlock());
-	public static final RegistryObject<Block> COW_CATCHER_LIME = REGISTRY.register("cow_catcher_lime", () -> new CowCatcherLimeBlock());
-	public static final RegistryObject<Block> COW_CATCHER_GREEN = REGISTRY.register("cow_catcher_green", () -> new CowCatcherGreenBlock());
-	public static final RegistryObject<Block> COW_CATCHER_CYAN = REGISTRY.register("cow_catcher_cyan", () -> new CowCatcherCyanBlock());
-	public static final RegistryObject<Block> COW_CATCHER_LIGHT_BLUE = REGISTRY.register("cow_catcher_light_blue",
-			() -> new CowCatcherLightBlueBlock());
-	public static final RegistryObject<Block> COW_CATCHER_BLUE = REGISTRY.register("cow_catcher_blue", () -> new CowCatcherBlueBlock());
-	public static final RegistryObject<Block> COW_CATCHER_PURPLE = REGISTRY.register("cow_catcher_purple", () -> new CowCatcherPurpleBlock());
-	public static final RegistryObject<Block> COW_CATCHER_MAGENTA = REGISTRY.register("cow_catcher_magenta", () -> new CowCatcherMagentaBlock());
-	public static final RegistryObject<Block> COW_CATCHER_PINK = REGISTRY.register("cow_catcher_pink", () -> new CowCatcherPinkBlock());
 	public static final RegistryObject<Block> LIGHTON = REGISTRY.register("lighton", () -> new LightonBlock());
 	public static final RegistryObject<Block> ALARM_LIGHTON = REGISTRY.register("alarm_lighton", () -> new AlarmLightonBlock());
 	public static final RegistryObject<Block> GREEN_LIGHT_ON = REGISTRY.register("green_light_on", () -> new GreenLightOnBlock());
 	public static final RegistryObject<Block> BLUE_LIGHT_ON = REGISTRY.register("blue_light_on", () -> new BlueLightOnBlock());
 	public static final RegistryObject<Block> PISS_ON = REGISTRY.register("piss_on", () -> new PissOnBlock());
 	public static final RegistryObject<Block> PISS_OFF = REGISTRY.register("piss_off", () -> new PissOffBlock());
-	public static final RegistryObject<Block> WHITE_TRAIN_LAMP = REGISTRY.register("white_train_lamp", () -> new WhiteTrainLampBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -738,77 +740,94 @@ public class DavebuildingmodModBlocks {
 			VentLBlock.registerRenderLayer();
 			VentLUpBlock.registerRenderLayer();
 			VentLDownBlock.registerRenderLayer();
-			CreateBoilerBlock.registerRenderLayer();
-			CopperBoilerBlock.registerRenderLayer();
-			ZincBoilerBlock.registerRenderLayer();
-			BrassBoilerBlock.registerRenderLayer();
 			WhiteSteelTrapdoorBlock.registerRenderLayer();
 			WhiteSteelWallBlock.registerRenderLayer();
 			WhiteBoilerBlock.registerRenderLayer();
 			WhiteGildedBoilerBlock.registerRenderLayer();
+			CowCatcherWhiteBlock.registerRenderLayer();
 			OrangeSteelTrapdoorBlock.registerRenderLayer();
 			OrangeSteelWallBlock.registerRenderLayer();
 			OrangeBoilerBlock.registerRenderLayer();
 			OrangeGildedBoilerBlock.registerRenderLayer();
+			CowCatcherOrangeBlock.registerRenderLayer();
 			MagentaSteelTrapdoorBlock.registerRenderLayer();
 			MagentaSteelWallBlock.registerRenderLayer();
 			MagentaBoilerBlock.registerRenderLayer();
 			MagentaGildedBoilerBlock.registerRenderLayer();
+			CowCatcherMagentaBlock.registerRenderLayer();
 			LightBlueSteelTrapdoorBlock.registerRenderLayer();
 			LightBlueSteelWallBlock.registerRenderLayer();
 			LightBlueBoilerBlock.registerRenderLayer();
 			LightBlueGildedBoilerBlock.registerRenderLayer();
+			CowCatcherLightBlueBlock.registerRenderLayer();
 			YellowSteelTrapdoorBlock.registerRenderLayer();
 			YellowSteelWallBlock.registerRenderLayer();
 			YellowBoilerBlock.registerRenderLayer();
 			YellowGildedBoilerBlock.registerRenderLayer();
+			CowCatcherYellowBlock.registerRenderLayer();
 			LimeSteelTrapdoorBlock.registerRenderLayer();
 			LimeSteelWallBlock.registerRenderLayer();
 			LimeBoilerBlock.registerRenderLayer();
 			LimeGildedBoilerBlock.registerRenderLayer();
+			CowCatcherLimeBlock.registerRenderLayer();
 			PinkSteelTrapdoorBlock.registerRenderLayer();
 			PinkSteelWallBlock.registerRenderLayer();
 			PinkBoilerBlock.registerRenderLayer();
 			PinkGildedBoilerBlock.registerRenderLayer();
+			CowCatcherPinkBlock.registerRenderLayer();
 			GraySteelTrapdoorBlock.registerRenderLayer();
 			GraySteelWallBlock.registerRenderLayer();
 			GrayBoilerBlock.registerRenderLayer();
 			GrayGildedBoilerBlock.registerRenderLayer();
+			CowCatcherGrayBlock.registerRenderLayer();
 			LightGraySteelTrapdoorBlock.registerRenderLayer();
 			LightGraySteelWallBlock.registerRenderLayer();
 			LightGrayBoilerBlock.registerRenderLayer();
 			LightGrayGildedBoilerBlock.registerRenderLayer();
+			CowCatcherLightGrayBlock.registerRenderLayer();
 			CyanSteelTrapdoorBlock.registerRenderLayer();
 			CyanSteelWallBlock.registerRenderLayer();
 			CyanBoilerBlock.registerRenderLayer();
 			CyanGildedBoilerBlock.registerRenderLayer();
+			CowCatcherCyanBlock.registerRenderLayer();
 			PurpleSteelTrapdoorBlock.registerRenderLayer();
 			PurpleSteelWallBlock.registerRenderLayer();
 			PurpleBoilerBlock.registerRenderLayer();
 			PurpleGildedBoilerBlock.registerRenderLayer();
+			CowCatcherPurpleBlock.registerRenderLayer();
 			BlueSteelTrapdoorBlock.registerRenderLayer();
 			BlueSteelWallBlock.registerRenderLayer();
 			BlueBoilerBlock.registerRenderLayer();
 			BlueGildedBoilerBlock.registerRenderLayer();
+			CowCatcherBlueBlock.registerRenderLayer();
 			BrownSteelTrapdoorBlock.registerRenderLayer();
 			BrownSteelWallBlock.registerRenderLayer();
 			BrownBoilerBlock.registerRenderLayer();
 			BrownGildedBoilerBlock.registerRenderLayer();
+			CowCatcherBrownBlock.registerRenderLayer();
 			GreenSteelTrapdoorBlock.registerRenderLayer();
 			GreenSteelWallBlock.registerRenderLayer();
 			GreenBoilerBlock.registerRenderLayer();
 			GreenGildedBoilerBlock.registerRenderLayer();
+			CowCatcherGreenBlock.registerRenderLayer();
 			RedSteelTrapdoorBlock.registerRenderLayer();
 			RedSteelWallBlock.registerRenderLayer();
 			RedBoilerBlock.registerRenderLayer();
 			RedGuildedBoilerBlock.registerRenderLayer();
+			CowCatcherRedBlock.registerRenderLayer();
 			BlackSteelTrapdoorBlock.registerRenderLayer();
 			BlackSteelWallBlock.registerRenderLayer();
 			BlackBoilerBlock.registerRenderLayer();
 			BlackGuildedBoilerBlock.registerRenderLayer();
+			CowCatcherBlackBlock.registerRenderLayer();
+			CreateBoilerBlock.registerRenderLayer();
+			CopperBoilerBlock.registerRenderLayer();
+			ZincBoilerBlock.registerRenderLayer();
+			BrassBoilerBlock.registerRenderLayer();
 			TrackEndBlock.registerRenderLayer();
 			GaugeOuterBlock.registerRenderLayer();
 			GaugeInnerBlock.registerRenderLayer();
+			ThomasFaceBlock.registerRenderLayer();
 			AlarmSignBlock.registerRenderLayer();
 			NoEntrySignBlock.registerRenderLayer();
 			OnewaySignBlock.registerRenderLayer();
@@ -853,27 +872,10 @@ public class DavebuildingmodModBlocks {
 			OnewayStoneBlock.registerRenderLayer();
 			OnewayLaboratoryBlockBlock.registerRenderLayer();
 			RubberDuckBlock.registerRenderLayer();
-			CowCatcherWhiteBlock.registerRenderLayer();
-			CowCatcherLightGrayBlock.registerRenderLayer();
-			CowCatcherGrayBlock.registerRenderLayer();
-			CowCatcherBlackBlock.registerRenderLayer();
-			CowCatcherBrownBlock.registerRenderLayer();
-			CowCatcherRedBlock.registerRenderLayer();
-			CowCatcherOrangeBlock.registerRenderLayer();
-			CowCatcherYellowBlock.registerRenderLayer();
-			CowCatcherLimeBlock.registerRenderLayer();
-			CowCatcherGreenBlock.registerRenderLayer();
-			CowCatcherCyanBlock.registerRenderLayer();
-			CowCatcherLightBlueBlock.registerRenderLayer();
-			CowCatcherBlueBlock.registerRenderLayer();
-			CowCatcherPurpleBlock.registerRenderLayer();
-			CowCatcherMagentaBlock.registerRenderLayer();
-			CowCatcherPinkBlock.registerRenderLayer();
 			LightonBlock.registerRenderLayer();
 			AlarmLightonBlock.registerRenderLayer();
 			GreenLightOnBlock.registerRenderLayer();
 			BlueLightOnBlock.registerRenderLayer();
-			WhiteTrainLampBlock.registerRenderLayer();
 		}
 	}
 }

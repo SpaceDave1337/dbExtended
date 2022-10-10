@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "davebuildingmod:vocal_empty"
+  },
+  "result": "davebuildingmod:vocal_lockdown"
+}

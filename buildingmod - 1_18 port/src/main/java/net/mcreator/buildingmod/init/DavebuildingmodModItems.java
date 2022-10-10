@@ -15,22 +15,23 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.buildingmod.item.VocalWarningItem;
-import net.mcreator.buildingmod.item.VocalSystemintegrityItem;
-import net.mcreator.buildingmod.item.VocalSystemfailItem;
-import net.mcreator.buildingmod.item.VocalStandbyItem;
-import net.mcreator.buildingmod.item.VocalSelfdestructItem;
-import net.mcreator.buildingmod.item.VocalOpenHatchItem;
-import net.mcreator.buildingmod.item.VocalMeltdownItem;
-import net.mcreator.buildingmod.item.VocalLifesupportItem;
-import net.mcreator.buildingmod.item.VocalFacliltyLeaveItem;
+import net.mcreator.buildingmod.item.VocalUnauthorizedActivityItem;
+import net.mcreator.buildingmod.item.VocalSystemsLoadingItem;
+import net.mcreator.buildingmod.item.VocalSecurityBreachItem;
+import net.mcreator.buildingmod.item.VocalReactorbreachItem;
+import net.mcreator.buildingmod.item.VocalNukeAlertItem;
+import net.mcreator.buildingmod.item.VocalLockdownItem;
+import net.mcreator.buildingmod.item.VocalLifesystemsFailItem;
+import net.mcreator.buildingmod.item.VocalLeaveFacilityItem;
+import net.mcreator.buildingmod.item.VocalLabrepairItem;
 import net.mcreator.buildingmod.item.VocalExperimentItem;
+import net.mcreator.buildingmod.item.VocalEvacuateComplexItem;
 import net.mcreator.buildingmod.item.VocalEmptyItem;
-import net.mcreator.buildingmod.item.VocalContainmentfailItem;
-import net.mcreator.buildingmod.item.VocalCloseHatchItem;
-import net.mcreator.buildingmod.item.VocalCalculatingItem;
-import net.mcreator.buildingmod.item.VocalBootupItem;
+import net.mcreator.buildingmod.item.VocalEmergencyExitItem;
+import net.mcreator.buildingmod.item.VocalDecontaminationItem;
+import net.mcreator.buildingmod.item.VocalDecompressionItem;
 import net.mcreator.buildingmod.item.VocalAttentionItem;
-import net.mcreator.buildingmod.item.VocalAirlockItem;
+import net.mcreator.buildingmod.item.VocalAlertItem;
 import net.mcreator.buildingmod.item.SteelIngotItem;
 import net.mcreator.buildingmod.item.ParticleCardWaterItem;
 import net.mcreator.buildingmod.item.ParticleCardTntItem;
@@ -93,22 +94,26 @@ public class DavebuildingmodModItems {
 	public static final RegistryObject<Item> VOCALS_GENERATOR = block(DavebuildingmodModBlocks.VOCALS_GENERATOR,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> VOCAL_EMPTY = REGISTRY.register("vocal_empty", () -> new VocalEmptyItem());
-	public static final RegistryObject<Item> VOCAL_WARNING = REGISTRY.register("vocal_warning", () -> new VocalWarningItem());
 	public static final RegistryObject<Item> VOCAL_ATTENTION = REGISTRY.register("vocal_attention", () -> new VocalAttentionItem());
-	public static final RegistryObject<Item> VOCAL_OPEN_HATCH = REGISTRY.register("vocal_open_hatch", () -> new VocalOpenHatchItem());
-	public static final RegistryObject<Item> VOCAL_CLOSE_HATCH = REGISTRY.register("vocal_close_hatch", () -> new VocalCloseHatchItem());
-	public static final RegistryObject<Item> VOCAL_AIRLOCK = REGISTRY.register("vocal_airlock", () -> new VocalAirlockItem());
-	public static final RegistryObject<Item> VOCAL_BOOTUP = REGISTRY.register("vocal_bootup", () -> new VocalBootupItem());
-	public static final RegistryObject<Item> VOCAL_STANDBY = REGISTRY.register("vocal_standby", () -> new VocalStandbyItem());
-	public static final RegistryObject<Item> VOCAL_CALCULATING = REGISTRY.register("vocal_calculating", () -> new VocalCalculatingItem());
+	public static final RegistryObject<Item> VOCAL_WARNING = REGISTRY.register("vocal_warning", () -> new VocalWarningItem());
+	public static final RegistryObject<Item> VOCAL_ALERT = REGISTRY.register("vocal_alert", () -> new VocalAlertItem());
+	public static final RegistryObject<Item> VOCAL_LABREPAIR = REGISTRY.register("vocal_labrepair", () -> new VocalLabrepairItem());
 	public static final RegistryObject<Item> VOCAL_EXPERIMENT = REGISTRY.register("vocal_experiment", () -> new VocalExperimentItem());
-	public static final RegistryObject<Item> VOCAL_CONTAINMENTFAIL = REGISTRY.register("vocal_containmentfail", () -> new VocalContainmentfailItem());
-	public static final RegistryObject<Item> VOCAL_MELTDOWN = REGISTRY.register("vocal_meltdown", () -> new VocalMeltdownItem());
-	public static final RegistryObject<Item> VOCAL_SYSTEMFAIL = REGISTRY.register("vocal_systemfail", () -> new VocalSystemfailItem());
-	public static final RegistryObject<Item> VOCAL_SYSTEMINTEGRITY = REGISTRY.register("vocal_systemintegrity", () -> new VocalSystemintegrityItem());
-	public static final RegistryObject<Item> VOCAL_SELFDESTRUCT = REGISTRY.register("vocal_selfdestruct", () -> new VocalSelfdestructItem());
-	public static final RegistryObject<Item> VOCAL_LIFESUPPORT = REGISTRY.register("vocal_lifesupport", () -> new VocalLifesupportItem());
-	public static final RegistryObject<Item> VOCAL_FACLILTY_LEAVE = REGISTRY.register("vocal_faclilty_leave", () -> new VocalFacliltyLeaveItem());
+	public static final RegistryObject<Item> VOCAL_REACTORBREACH = REGISTRY.register("vocal_reactorbreach", () -> new VocalReactorbreachItem());
+	public static final RegistryObject<Item> VOCAL_SYSTEMS_LOADING = REGISTRY.register("vocal_systems_loading", () -> new VocalSystemsLoadingItem());
+	public static final RegistryObject<Item> VOCAL_DECONTAMINATION = REGISTRY.register("vocal_decontamination", () -> new VocalDecontaminationItem());
+	public static final RegistryObject<Item> VOCAL_DECOMPRESSION = REGISTRY.register("vocal_decompression", () -> new VocalDecompressionItem());
+	public static final RegistryObject<Item> VOCAL_LOCKDOWN = REGISTRY.register("vocal_lockdown", () -> new VocalLockdownItem());
+	public static final RegistryObject<Item> VOCAL_LIFESYSTEMS_FAIL = REGISTRY.register("vocal_lifesystems_fail",
+			() -> new VocalLifesystemsFailItem());
+	public static final RegistryObject<Item> VOCAL_LEAVE_FACILITY = REGISTRY.register("vocal_leave_facility", () -> new VocalLeaveFacilityItem());
+	public static final RegistryObject<Item> VOCAL_UNAUTHORIZED_ACTIVITY = REGISTRY.register("vocal_unauthorized_activity",
+			() -> new VocalUnauthorizedActivityItem());
+	public static final RegistryObject<Item> VOCAL_EVACUATE_COMPLEX = REGISTRY.register("vocal_evacuate_complex",
+			() -> new VocalEvacuateComplexItem());
+	public static final RegistryObject<Item> VOCAL_NUKE_ALERT = REGISTRY.register("vocal_nuke_alert", () -> new VocalNukeAlertItem());
+	public static final RegistryObject<Item> VOCAL_EMERGENCY_EXIT = REGISTRY.register("vocal_emergency_exit", () -> new VocalEmergencyExitItem());
+	public static final RegistryObject<Item> VOCAL_SECURITY_BREACH = REGISTRY.register("vocal_security_breach", () -> new VocalSecurityBreachItem());
 	public static final RegistryObject<Item> COPPER_COIL = block(DavebuildingmodModBlocks.COPPER_COIL, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> PC_SETUP = block(DavebuildingmodModBlocks.PC_SETUP, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> SERVER_RACK = block(DavebuildingmodModBlocks.SERVER_RACK, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
@@ -199,10 +204,6 @@ public class DavebuildingmodModItems {
 	public static final RegistryObject<Item> VENT_L = block(DavebuildingmodModBlocks.VENT_L, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> VENT_L_UP = block(DavebuildingmodModBlocks.VENT_L_UP, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> VENT_L_DOWN = block(DavebuildingmodModBlocks.VENT_L_DOWN, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> CREATE_BOILER = block(DavebuildingmodModBlocks.CREATE_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COPPER_BOILER = block(DavebuildingmodModBlocks.COPPER_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> ZINC_BOILER = block(DavebuildingmodModBlocks.ZINC_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> BRASS_BOILER = block(DavebuildingmodModBlocks.BRASS_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> WHITE_STEEL_PLATING = block(DavebuildingmodModBlocks.WHITE_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> WHITE_STEEL_STAIRS = block(DavebuildingmodModBlocks.WHITE_STEEL_STAIRS,
@@ -220,6 +221,8 @@ public class DavebuildingmodModItems {
 	public static final RegistryObject<Item> WHITE_BOILER = block(DavebuildingmodModBlocks.WHITE_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> WHITE_GILDED_BOILER = block(DavebuildingmodModBlocks.WHITE_GILDED_BOILER,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_WHITE = block(DavebuildingmodModBlocks.COW_CATCHER_WHITE,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> ORANGE_STEEL_PLATING = block(DavebuildingmodModBlocks.ORANGE_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> ORANGE_STEEL_STAIRS = block(DavebuildingmodModBlocks.ORANGE_STEEL_STAIRS,
@@ -236,6 +239,8 @@ public class DavebuildingmodModItems {
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> ORANGE_BOILER = block(DavebuildingmodModBlocks.ORANGE_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> ORANGE_GILDED_BOILER = block(DavebuildingmodModBlocks.ORANGE_GILDED_BOILER,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_ORANGE = block(DavebuildingmodModBlocks.COW_CATCHER_ORANGE,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> MAGENTA_STEEL_PLATING = block(DavebuildingmodModBlocks.MAGENTA_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
@@ -255,6 +260,8 @@ public class DavebuildingmodModItems {
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> MAGENTA_GILDED_BOILER = block(DavebuildingmodModBlocks.MAGENTA_GILDED_BOILER,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_MAGENTA = block(DavebuildingmodModBlocks.COW_CATCHER_MAGENTA,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> LIGHT_BLUE_STEEL_PLATING = block(DavebuildingmodModBlocks.LIGHT_BLUE_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> LIGHT_BLUE_STEEL_STAIRS = block(DavebuildingmodModBlocks.LIGHT_BLUE_STEEL_STAIRS,
@@ -273,6 +280,8 @@ public class DavebuildingmodModItems {
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> LIGHT_BLUE_GILDED_BOILER = block(DavebuildingmodModBlocks.LIGHT_BLUE_GILDED_BOILER,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_LIGHT_BLUE = block(DavebuildingmodModBlocks.COW_CATCHER_LIGHT_BLUE,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> YELLOW_STEEL_PLATING = block(DavebuildingmodModBlocks.YELLOW_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> YELLOW_STEEL_STAIRS = block(DavebuildingmodModBlocks.YELLOW_STEEL_STAIRS,
@@ -289,6 +298,8 @@ public class DavebuildingmodModItems {
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> YELLOW_BOILER = block(DavebuildingmodModBlocks.YELLOW_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> YELLOW_GILDED_BOILER = block(DavebuildingmodModBlocks.YELLOW_GILDED_BOILER,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_YELLOW = block(DavebuildingmodModBlocks.COW_CATCHER_YELLOW,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> LIME_STEEL_PLATING = block(DavebuildingmodModBlocks.LIME_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
@@ -307,6 +318,8 @@ public class DavebuildingmodModItems {
 	public static final RegistryObject<Item> LIME_BOILER = block(DavebuildingmodModBlocks.LIME_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> LIME_GILDED_BOILER = block(DavebuildingmodModBlocks.LIME_GILDED_BOILER,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_LIME = block(DavebuildingmodModBlocks.COW_CATCHER_LIME,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> PINK_STEEL_PLATING = block(DavebuildingmodModBlocks.PINK_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> PINK_STEEL_STAIRS = block(DavebuildingmodModBlocks.PINK_STEEL_STAIRS,
@@ -324,6 +337,8 @@ public class DavebuildingmodModItems {
 	public static final RegistryObject<Item> PINK_BOILER = block(DavebuildingmodModBlocks.PINK_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> PINK_GILDED_BOILER = block(DavebuildingmodModBlocks.PINK_GILDED_BOILER,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_PINK = block(DavebuildingmodModBlocks.COW_CATCHER_PINK,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> GRAY_STEEL_PLATING = block(DavebuildingmodModBlocks.GRAY_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> GRAY_STEEL_STAIRS = block(DavebuildingmodModBlocks.GRAY_STEEL_STAIRS,
@@ -340,6 +355,8 @@ public class DavebuildingmodModItems {
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> GRAY_BOILER = block(DavebuildingmodModBlocks.GRAY_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> GRAY_GILDED_BOILER = block(DavebuildingmodModBlocks.GRAY_GILDED_BOILER,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_GRAY = block(DavebuildingmodModBlocks.COW_CATCHER_GRAY,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> LIGHT_GRAY_STEEL_PLATING = block(DavebuildingmodModBlocks.LIGHT_GRAY_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
@@ -359,6 +376,8 @@ public class DavebuildingmodModItems {
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> LIGHT_GRAY_GILDED_BOILER = block(DavebuildingmodModBlocks.LIGHT_GRAY_GILDED_BOILER,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_LIGHT_GRAY = block(DavebuildingmodModBlocks.COW_CATCHER_LIGHT_GRAY,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> CYAN_STEEL_PLATING = block(DavebuildingmodModBlocks.CYAN_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> CYAN_STEEL_STAIRS = block(DavebuildingmodModBlocks.CYAN_STEEL_STAIRS,
@@ -375,6 +394,8 @@ public class DavebuildingmodModItems {
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> CYAN_BOILER = block(DavebuildingmodModBlocks.CYAN_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> CYAN_GILDED_BOILER = block(DavebuildingmodModBlocks.CYAN_GILDED_BOILER,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_CYAN = block(DavebuildingmodModBlocks.COW_CATCHER_CYAN,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> PURPLE_STEEL_PLATING = block(DavebuildingmodModBlocks.PURPLE_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
@@ -393,6 +414,8 @@ public class DavebuildingmodModItems {
 	public static final RegistryObject<Item> PURPLE_BOILER = block(DavebuildingmodModBlocks.PURPLE_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> PURPLE_GILDED_BOILER = block(DavebuildingmodModBlocks.PURPLE_GILDED_BOILER,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_PURPLE = block(DavebuildingmodModBlocks.COW_CATCHER_PURPLE,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> BLUE_STEEL_PLATING = block(DavebuildingmodModBlocks.BLUE_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> BLUE_STEEL_STAIRS = block(DavebuildingmodModBlocks.BLUE_STEEL_STAIRS,
@@ -409,6 +432,8 @@ public class DavebuildingmodModItems {
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> BLUE_BOILER = block(DavebuildingmodModBlocks.BLUE_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> BLUE_GILDED_BOILER = block(DavebuildingmodModBlocks.BLUE_GILDED_BOILER,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_BLUE = block(DavebuildingmodModBlocks.COW_CATCHER_BLUE,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> BROWN_STEEL_PLATING = block(DavebuildingmodModBlocks.BROWN_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
@@ -427,6 +452,8 @@ public class DavebuildingmodModItems {
 	public static final RegistryObject<Item> BROWN_BOILER = block(DavebuildingmodModBlocks.BROWN_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> BROWN_GILDED_BOILER = block(DavebuildingmodModBlocks.BROWN_GILDED_BOILER,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_BROWN = block(DavebuildingmodModBlocks.COW_CATCHER_BROWN,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> GREEN_STEEL_PLATING = block(DavebuildingmodModBlocks.GREEN_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> GREEN_STEEL_STAIRS = block(DavebuildingmodModBlocks.GREEN_STEEL_STAIRS,
@@ -443,6 +470,8 @@ public class DavebuildingmodModItems {
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> GREEN_BOILER = block(DavebuildingmodModBlocks.GREEN_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> GREEN_GILDED_BOILER = block(DavebuildingmodModBlocks.GREEN_GILDED_BOILER,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_GREEN = block(DavebuildingmodModBlocks.COW_CATCHER_GREEN,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> RED_STEEL_PLATING = block(DavebuildingmodModBlocks.RED_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
@@ -461,6 +490,8 @@ public class DavebuildingmodModItems {
 	public static final RegistryObject<Item> RED_BOILER = block(DavebuildingmodModBlocks.RED_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> RED_GUILDED_BOILER = block(DavebuildingmodModBlocks.RED_GUILDED_BOILER,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_RED = block(DavebuildingmodModBlocks.COW_CATCHER_RED,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> BLACK_STEEL_PLATING = block(DavebuildingmodModBlocks.BLACK_STEEL_PLATING,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> BLACK_STEEL_STAIRS = block(DavebuildingmodModBlocks.BLACK_STEEL_STAIRS,
@@ -478,9 +509,16 @@ public class DavebuildingmodModItems {
 	public static final RegistryObject<Item> BLACK_BOILER = block(DavebuildingmodModBlocks.BLACK_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> BLACK_GUILDED_BOILER = block(DavebuildingmodModBlocks.BLACK_GUILDED_BOILER,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COW_CATCHER_BLACK = block(DavebuildingmodModBlocks.COW_CATCHER_BLACK,
+			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> CREATE_BOILER = block(DavebuildingmodModBlocks.CREATE_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> COPPER_BOILER = block(DavebuildingmodModBlocks.COPPER_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> ZINC_BOILER = block(DavebuildingmodModBlocks.ZINC_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> BRASS_BOILER = block(DavebuildingmodModBlocks.BRASS_BOILER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> TRACK_END = block(DavebuildingmodModBlocks.TRACK_END, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> GAUGE_OUTER = block(DavebuildingmodModBlocks.GAUGE_OUTER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> GAUGE_INNER = block(DavebuildingmodModBlocks.GAUGE_INNER, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> THOMAS_FACE = block(DavebuildingmodModBlocks.THOMAS_FACE, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> ALARM_SIGN = block(DavebuildingmodModBlocks.ALARM_SIGN, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> NO_ENTRY_SIGN = block(DavebuildingmodModBlocks.NO_ENTRY_SIGN, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> ONEWAY_SIGN = block(DavebuildingmodModBlocks.ONEWAY_SIGN, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
@@ -598,51 +636,19 @@ public class DavebuildingmodModItems {
 	public static final RegistryObject<Item> ONEWAY_LABORATORY_BLOCK = block(DavebuildingmodModBlocks.ONEWAY_LABORATORY_BLOCK,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> VANTA_BLACK = block(DavebuildingmodModBlocks.VANTA_BLACK, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
+	public static final RegistryObject<Item> STARS = block(DavebuildingmodModBlocks.STARS, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> ULTRA_WHITE = block(DavebuildingmodModBlocks.ULTRA_WHITE, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> GREEN_SCREEN = block(DavebuildingmodModBlocks.GREEN_SCREEN, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> BLUE_SCREEN = block(DavebuildingmodModBlocks.BLUE_SCREEN, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> MAGENTA_SCREEN = block(DavebuildingmodModBlocks.MAGENTA_SCREEN,
 			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> RUBBER_DUCK = block(DavebuildingmodModBlocks.RUBBER_DUCK, DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_WHITE = block(DavebuildingmodModBlocks.COW_CATCHER_WHITE,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_LIGHT_GRAY = block(DavebuildingmodModBlocks.COW_CATCHER_LIGHT_GRAY,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_GRAY = block(DavebuildingmodModBlocks.COW_CATCHER_GRAY,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_BLACK = block(DavebuildingmodModBlocks.COW_CATCHER_BLACK,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_BROWN = block(DavebuildingmodModBlocks.COW_CATCHER_BROWN,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_RED = block(DavebuildingmodModBlocks.COW_CATCHER_RED,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_ORANGE = block(DavebuildingmodModBlocks.COW_CATCHER_ORANGE,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_YELLOW = block(DavebuildingmodModBlocks.COW_CATCHER_YELLOW,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_LIME = block(DavebuildingmodModBlocks.COW_CATCHER_LIME,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_GREEN = block(DavebuildingmodModBlocks.COW_CATCHER_GREEN,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_CYAN = block(DavebuildingmodModBlocks.COW_CATCHER_CYAN,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_LIGHT_BLUE = block(DavebuildingmodModBlocks.COW_CATCHER_LIGHT_BLUE,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_BLUE = block(DavebuildingmodModBlocks.COW_CATCHER_BLUE,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_PURPLE = block(DavebuildingmodModBlocks.COW_CATCHER_PURPLE,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_MAGENTA = block(DavebuildingmodModBlocks.COW_CATCHER_MAGENTA,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
-	public static final RegistryObject<Item> COW_CATCHER_PINK = block(DavebuildingmodModBlocks.COW_CATCHER_PINK,
-			DavebuildingmodModTabs.TAB_DAVES_MOD_TAB);
 	public static final RegistryObject<Item> LIGHTON = block(DavebuildingmodModBlocks.LIGHTON, null);
 	public static final RegistryObject<Item> ALARM_LIGHTON = block(DavebuildingmodModBlocks.ALARM_LIGHTON, null);
 	public static final RegistryObject<Item> GREEN_LIGHT_ON = block(DavebuildingmodModBlocks.GREEN_LIGHT_ON, null);
 	public static final RegistryObject<Item> BLUE_LIGHT_ON = block(DavebuildingmodModBlocks.BLUE_LIGHT_ON, null);
 	public static final RegistryObject<Item> PISS_ON = block(DavebuildingmodModBlocks.PISS_ON, null);
 	public static final RegistryObject<Item> PISS_OFF = block(DavebuildingmodModBlocks.PISS_OFF, null);
-	public static final RegistryObject<Item> WHITE_TRAIN_LAMP = block(DavebuildingmodModBlocks.WHITE_TRAIN_LAMP, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
