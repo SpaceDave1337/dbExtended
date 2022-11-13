@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3  ",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "davebuildingmod:black_steel_plating"
+    },
+    "3": {
+      "item": "davebuildingmod:steel_pillar"
+    },
+    "6": {
+      "item": "davebuildingmod:steel_plating"
+    },
+    "7": {
+      "item": "davebuildingmod:steel_plating"
+    },
+    "8": {
+      "item": "davebuildingmod:steel_plating"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:engine_piston",
+    "count": 1
+  }
+}

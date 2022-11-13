@@ -1,13 +1,13 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "romannumerals10",
-    "textureTop": "romannumerals10",
-    "textureLeft": "romannumerals10",
-    "textureFront": "romannumerals10",
-    "textureRight": "romannumerals10",
-    "textureBack": "romannumerals10",
+    "texture": "romannumerals10-blue",
+    "textureTop": "romannumerals10-blue",
+    "textureLeft": "romannumerals10-blue",
+    "textureFront": "romannumerals10-blue",
+    "textureRight": "romannumerals10-blue",
+    "textureBack": "romannumerals10-blue",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Laboratory Roman Numeral \"X\"",
+    "name": "Blue Laboratory Roman Numeral \"X\"",
     "specialInfo": [],
     "hardness": 5.0,
     "resistance": 6.0,

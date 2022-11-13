@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/smoke_stack_opening"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/smoke_stack_opening",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/smoke_stack_opening",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/smoke_stack_opening",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "davebuildingmod:block/smoke_stack_opening",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "davebuildingmod:block/smoke_stack_opening",
+      "x": 90
+    }
+  }
+}

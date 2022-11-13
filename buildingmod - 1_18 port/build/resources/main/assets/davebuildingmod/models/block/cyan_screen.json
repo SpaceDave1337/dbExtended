@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/cyan_screen",
+    "up": "davebuildingmod:blocks/cyan_screen",
+    "north": "davebuildingmod:blocks/cyan_screen",
+    "east": "davebuildingmod:blocks/cyan_screen",
+    "south": "davebuildingmod:blocks/cyan_screen",
+    "west": "davebuildingmod:blocks/cyan_screen",
+    "particle": "davebuildingmod:blocks/cyan_screen"
+  }
+}

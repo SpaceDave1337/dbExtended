@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:smoker"
+    },
+    {
+      "item": "davebuildingmod:soft_air"
+    }
+  ],
+  "result": {
+    "item": "davebuildingmod:small_smoke_passive_generator",
+    "count": 1
+  }
+}

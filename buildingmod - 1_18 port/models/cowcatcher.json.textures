@@ -95,6 +95,12 @@
         "0": "pink_steel"
       },
       "name": "pink"
+    },
+    "rgb": {
+      "map": {
+        "0": "rgb_steel"
+      },
+      "name": "rgb"
     }
   }
 }

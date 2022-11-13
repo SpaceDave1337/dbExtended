@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "davebuildingmod:block/steam_passive_generator"
+    }
+  }
+}

@@ -1,13 +1,13 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "laboratorywallarrowright",
-    "textureTop": "laboratorywallarrowright",
-    "textureLeft": "laboratorywallarrowright",
-    "textureFront": "laboratorywallarrowright",
-    "textureRight": "laboratorywallarrowright",
-    "textureBack": "laboratorywallarrowright",
+    "texture": "laboratorywallarrowright-blue",
+    "textureTop": "laboratorywallarrowright-blue",
+    "textureLeft": "laboratorywallarrowright-blue",
+    "textureFront": "laboratorywallarrowright-blue",
+    "textureRight": "laboratorywallarrowright-blue",
+    "textureBack": "laboratorywallarrowright-blue",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Right Laboratory Arrow",
+    "name": "Right Blue Laboratory Arrow",
     "specialInfo": [],
     "hardness": 5.0,
     "resistance": 6.0,

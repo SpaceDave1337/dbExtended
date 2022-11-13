@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/vent_t"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/vent_t",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/vent_t",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/vent_t",
+      "y": 270
+    }
+  }
+}

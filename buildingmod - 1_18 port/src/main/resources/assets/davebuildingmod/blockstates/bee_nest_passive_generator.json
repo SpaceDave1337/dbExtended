@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "davebuildingmod:block/bee_nest_passive_generator"
+    }
+  }
+}

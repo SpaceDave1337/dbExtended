@@ -1,0 +1,140 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "white_steel",
+        "1": "white_steel_port",
+        "missing": "white_steel"
+      },
+      "name": "default"
+    },
+    "light_gray": {
+      "map": {
+        "0": "light_gray_steel",
+        "1": "light_gray_steel_port",
+        "missing": "light_gray_steel"
+      },
+      "name": "light_gray"
+    },
+    "gray": {
+      "map": {
+        "0": "gray_steel",
+        "1": "gray_steel_port",
+        "missing": "gray_steel"
+      },
+      "name": "gray"
+    },
+    "black": {
+      "map": {
+        "0": "black_steel",
+        "1": "black_steel_port",
+        "missing": "black_steel"
+      },
+      "name": "black"
+    },
+    "brown": {
+      "map": {
+        "0": "brown_steel",
+        "1": "brown_steel_port",
+        "missing": "brown_steel"
+      },
+      "name": "brown"
+    },
+    "red": {
+      "map": {
+        "0": "red_steel",
+        "1": "red_steel_port",
+        "missing": "red_steel"
+      },
+      "name": "red"
+    },
+    "orange": {
+      "map": {
+        "0": "orange_steel",
+        "1": "orange_steel_port",
+        "missing": "orange_steel"
+      },
+      "name": "orange"
+    },
+    "yellow": {
+      "map": {
+        "0": "yellow_steel",
+        "1": "yellow_steel_port",
+        "missing": "yellow_steel"
+      },
+      "name": "yellow"
+    },
+    "lime": {
+      "map": {
+        "0": "lime_steel",
+        "1": "lime_steel_port",
+        "missing": "lime_steel"
+      },
+      "name": "lime"
+    },
+    "green": {
+      "map": {
+        "0": "green_steel",
+        "1": "green_steel_port",
+        "missing": "green_steel"
+      },
+      "name": "green"
+    },
+    "cyan": {
+      "map": {
+        "0": "cyan_steel",
+        "1": "cyan_steel_port",
+        "missing": "cyan_steel"
+      },
+      "name": "cyan"
+    },
+    "light_blue": {
+      "map": {
+        "0": "light_blue_steel",
+        "1": "light_blue_steel_port",
+        "missing": "light_blue_steel"
+      },
+      "name": "light_blue"
+    },
+    "blue": {
+      "map": {
+        "0": "blue_steel",
+        "1": "blue_steel_port",
+        "missing": "blue_steel"
+      },
+      "name": "blue"
+    },
+    "purple": {
+      "map": {
+        "0": "purple_steel",
+        "1": "purple_steel_port",
+        "missing": "purple_steel"
+      },
+      "name": "purple"
+    },
+    "magenta": {
+      "map": {
+        "0": "magenta_steel",
+        "1": "magenta_steel_port",
+        "missing": "magenta_steel"
+      },
+      "name": "magenta"
+    },
+    "pink": {
+      "map": {
+        "0": "pink_steel",
+        "1": "pink_steel_port",
+        "missing": "pink_steel"
+      },
+      "name": "pink"
+    },
+    "rgb": {
+      "map": {
+        "0": "rgb_steel",
+        "1": "rgb_port",
+        "missing": "rgb_steel"
+      },
+      "name": "rgb"
+    }
+  }
+}

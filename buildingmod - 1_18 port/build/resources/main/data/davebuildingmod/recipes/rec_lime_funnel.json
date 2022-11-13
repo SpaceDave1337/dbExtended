@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "item": "davebuildingmod:lime_steel_wall"
+    }
+  ],
+  "result": {
+    "item": "davebuildingmod:lime_funnel",
+    "count": 2
+  }
+}

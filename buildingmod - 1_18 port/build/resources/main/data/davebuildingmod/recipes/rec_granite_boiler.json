@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:polished_granite"
+    },
+    "3": {
+      "item": "minecraft:polished_granite"
+    },
+    "4": {
+      "item": "minecraft:water_bucket"
+    },
+    "5": {
+      "item": "minecraft:polished_granite"
+    },
+    "7": {
+      "item": "minecraft:polished_granite"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:granite_boiler",
+    "count": 2
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "davebuildingmod:block/fire_charge_passive_generator"
+    }
+  }
+}

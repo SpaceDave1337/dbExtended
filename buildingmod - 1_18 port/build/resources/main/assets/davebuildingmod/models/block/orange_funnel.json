@@ -1,0 +1,10 @@
+{
+  "parent": "davebuildingmod:custom/funnel",
+  "textures": {
+    "all": "davebuildingmod:blocks/orange_steel_port",
+    "particle": "davebuildingmod:blocks/orange_steel_port",
+    "0": "davebuildingmod:blocks/orange_steel",
+    "1": "davebuildingmod:blocks/orange_steel_port",
+    "missing": "davebuildingmod:blocks/orange_steel"
+  }
+}

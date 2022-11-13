@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/engine_piston"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/engine_piston",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/engine_piston",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/engine_piston",
+      "y": 270
+    }
+  }
+}

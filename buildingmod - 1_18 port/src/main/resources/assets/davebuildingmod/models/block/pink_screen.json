@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/pink_screen",
+    "up": "davebuildingmod:blocks/pink_screen",
+    "north": "davebuildingmod:blocks/pink_screen",
+    "east": "davebuildingmod:blocks/pink_screen",
+    "south": "davebuildingmod:blocks/pink_screen",
+    "west": "davebuildingmod:blocks/pink_screen",
+    "particle": "davebuildingmod:blocks/pink_screen"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:SoundGenerator"
+      },
+      {
+        "value": "CUSTOM:ParticleGenerator"
+      },
+      {
+        "value": "CUSTOM:VocalsGenerator"
+      },
+      {
+        "value": "CUSTOM:Lighton"
+      },
+      {
+        "value": "CUSTOM:Lightoff"
+      },
+      {
+        "value": "CUSTOM:AlarmLightoff"
+      },
+      {
+        "value": "CUSTOM:AlarmLighton"
+      },
+      {
+        "value": "CUSTOM:GreenLightOn"
+      },
+      {
+        "value": "CUSTOM:GreenLightOff"
+      },
+      {
+        "value": "CUSTOM:BlueLightOff"
+      },
+      {
+        "value": "CUSTOM:BlueLightOn"
+      },
+      {
+        "value": "CUSTOM:TrackEnd"
+      },
+      {
+        "value": "CUSTOM:CreateBoiler"
+      },
+      {
+        "value": "CUSTOM:BlackBoiler"
+      },
+      {
+        "value": "CUSTOM:BlackGuildedBoiler"
+      },
+      {
+        "value": "CUSTOM:RedBoiler"
+      },
+      {
+        "value": "CUSTOM:RedGuildedBoiler"
+      },
+      {
+        "value": "CUSTOM:GreenBoiler"
+      },
+      {
+        "value": "CUSTOM:GreenGildedBoiler"
+      },
+      {
+        "value": "CUSTOM:BrownBoiler"
+      },
+      {
+        "value": "CUSTOM:BrownGildedBoiler"
+      },
+      {
+        "value": "CUSTOM:BlueBoiler"
+      },
+      {
+        "value": "CUSTOM:BlueGildedBoiler"
+      },
+      {
+        "value": "CUSTOM:PurpleBoiler"
+      },
+      {
+        "value": "CUSTOM:PurpleGildedBoiler"
+      },
+      {
+        "value": "CUSTOM:CyanBoiler"
+      },
+      {
+        "value": "CUSTOM:CyanGildedBoiler"
+      },
+      {
+        "value": "CUSTOM:LightGrayBoiler"
+      },
+      {
+        "value": "CUSTOM:LightGrayGildedBoiler"
+      },
+      {
+        "value": "CUSTOM:GrayBoiler"
+      },
+      {
+        "value": "CUSTOM:GrayGildedBoiler"
+      },
+      {
+        "value": "CUSTOM:PinkBoiler"
+      },
+      {
+        "value": "CUSTOM:PinkGildedBoiler"
+      },
+      {
+        "value": "CUSTOM:LimeBoiler"
+      },
+      {
+        "value": "CUSTOM:LimeGildedBoiler"
+      },
+      {
+        "value": "CUSTOM:YellowBoiler"
+      },
+      {
+        "value": "CUSTOM:YellowGildedBoiler"
+      },
+      {
+        "value": "CUSTOM:MagentaBoiler"
+      },
+      {
+        "value": "CUSTOM:MagentaGildedBoiler"
+      },
+      {
+        "value": "CUSTOM:OrangeBoiler"
+      },
+      {
+        "value": "CUSTOM:OrangeGildedBoiler"
+      },
+      {
+        "value": "CUSTOM:WhiteBoiler"
+      },
+      {
+        "value": "CUSTOM:WhiteGildedBoiler"
+      },
+      {
+        "value": "CUSTOM:LightBlueBoiler"
+      },
+      {
+        "value": "CUSTOM:LightBlueGildedBoiler"
+      },
+      {
+        "value": "CUSTOM:CopperBoiler"
+      },
+      {
+        "value": "CUSTOM:BrassBoiler"
+      },
+      {
+        "value": "CUSTOM:ZincBoiler"
+      },
+      {
+        "value": "CUSTOM:GaugeOuter"
+      },
+      {
+        "value": "CUSTOM:GaugeInner"
+      },
+      {
+        "value": "CUSTOM:GraniteBoiler"
+      },
+      {
+        "value": "CUSTOM:DioriteBoiler"
+      },
+      {
+        "value": "CUSTOM:RGBBoiler"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "wrench_pickup",
+    "namespace": "create"
+  }
+}

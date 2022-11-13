@@ -1,9 +1,9 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 200,
+    "width": 176,
     "height": 194,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 13,
@@ -21,7 +21,7 @@
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
           "x": 204,
-          "y": 89
+          "y": 98
         }
       },
       {
@@ -46,7 +46,7 @@
             "falpha": 0.0
           },
           "name": "Y-Offset",
-          "x": 132,
+          "x": 141,
           "y": 44
         }
       },
@@ -57,7 +57,7 @@
           "width": 45,
           "height": 20,
           "name": "YOffset",
-          "x": 132,
+          "x": 141,
           "y": 53
         }
       },
@@ -70,7 +70,7 @@
             "falpha": 0.0
           },
           "name": "Size",
-          "x": 249,
+          "x": 240,
           "y": 44
         }
       },
@@ -81,14 +81,11 @@
           "width": 45,
           "height": 20,
           "name": "Size",
-          "x": 249,
+          "x": 240,
           "y": 53
         }
       }
     ],
-    "onOpen": {
-      "name": "OpenParticleGen"
-    },
     "onClosed": {
       "name": "OffsetFunction"
     },

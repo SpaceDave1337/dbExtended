@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "davebuildingmod:items/circuit_advanced"
+    "layer0": "davebuildingmod:items/red_circuit_empty"
   }
 }

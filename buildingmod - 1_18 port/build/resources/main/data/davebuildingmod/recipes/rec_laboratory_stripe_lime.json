@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_dye"
+    },
+    "1": {
+      "item": "davebuildingmod:laboratory_block"
+    },
+    "2": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:laboratory_stripe_lime",
+    "count": 2
+  }
+}

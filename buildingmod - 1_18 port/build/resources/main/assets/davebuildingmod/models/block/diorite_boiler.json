@@ -1,0 +1,8 @@
+{
+  "parent": "davebuildingmod:custom/boiler",
+  "textures": {
+    "all": "davebuildingmod:blocks/white_boiler",
+    "particle": "davebuildingmod:blocks/polished_diorite",
+    "cover": "davebuildingmod:blocks/white_boiler"
+  }
+}

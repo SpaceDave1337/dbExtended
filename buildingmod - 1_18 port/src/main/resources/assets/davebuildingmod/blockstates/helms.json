@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/helms"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/helms",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/helms",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/helms",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "davebuildingmod:block/helms",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "davebuildingmod:block/helms",
+      "x": 90
+    }
+  }
+}

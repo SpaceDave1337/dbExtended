@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "davebuildingmod:soft_air"
+    }
+  ],
+  "result": {
+    "item": "davebuildingmod:tnt_passive_generator",
+    "count": 1
+  }
+}

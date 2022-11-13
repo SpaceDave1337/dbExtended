@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:campfire"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "davebuildingmod:advanced_circuit"
+    }
+  ],
+  "result": {
+    "item": "davebuildingmod:red_circuit_steam",
+    "count": 1
+  }
+}

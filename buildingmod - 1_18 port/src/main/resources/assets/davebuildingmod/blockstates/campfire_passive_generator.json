@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "davebuildingmod:block/campfire_passive_generator"
+    }
+  }
+}

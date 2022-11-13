@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:GreenSteelPlating"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:GreenBuffer"
+    },
+    "name": "rec_green_buffer",
+    "namespace": "mod"
+  }
+}

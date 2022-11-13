@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/cow_catcher_rgb"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/cow_catcher_rgb",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/cow_catcher_rgb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/cow_catcher_rgb",
+      "y": 270
+    }
+  }
+}

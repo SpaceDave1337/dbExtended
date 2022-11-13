@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "item": "davebuildingmod:brown_steel_wall"
+    }
+  ],
+  "result": {
+    "item": "davebuildingmod:brown_funnel",
+    "count": 2
+  }
+}

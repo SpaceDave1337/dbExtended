@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "davebuildingmod:blocks/laboratorywallarrowright",
-    "up": "davebuildingmod:blocks/laboratorywallarrowright",
-    "north": "davebuildingmod:blocks/laboratorywallarrowright",
-    "east": "davebuildingmod:blocks/laboratorywallarrowright",
-    "south": "davebuildingmod:blocks/laboratorywallarrowright",
-    "west": "davebuildingmod:blocks/laboratorywallarrowright",
-    "particle": "davebuildingmod:blocks/laboratorywallarrowright"
+    "down": "davebuildingmod:blocks/laboratorywallarrowright-blue",
+    "up": "davebuildingmod:blocks/laboratorywallarrowright-blue",
+    "north": "davebuildingmod:blocks/laboratorywallarrowright-blue",
+    "east": "davebuildingmod:blocks/laboratorywallarrowright-blue",
+    "south": "davebuildingmod:blocks/laboratorywallarrowright-blue",
+    "west": "davebuildingmod:blocks/laboratorywallarrowright-blue",
+    "particle": "davebuildingmod:blocks/laboratorywallarrowright-blue"
   }
 }

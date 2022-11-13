@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "davebuildingmod:purple_steel_plating"
+  },
+  "result": "davebuildingmod:purple_buffer"
+}

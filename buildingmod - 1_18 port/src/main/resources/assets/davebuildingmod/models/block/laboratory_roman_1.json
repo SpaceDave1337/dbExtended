@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "davebuildingmod:blocks/romannumerals1",
-    "up": "davebuildingmod:blocks/romannumerals1",
-    "north": "davebuildingmod:blocks/romannumerals1",
-    "east": "davebuildingmod:blocks/romannumerals1",
-    "south": "davebuildingmod:blocks/romannumerals1",
-    "west": "davebuildingmod:blocks/romannumerals1",
-    "particle": "davebuildingmod:blocks/romannumerals1"
+    "down": "davebuildingmod:blocks/romannumerals1-blue",
+    "up": "davebuildingmod:blocks/romannumerals1-blue",
+    "north": "davebuildingmod:blocks/romannumerals1-blue",
+    "east": "davebuildingmod:blocks/romannumerals1-blue",
+    "south": "davebuildingmod:blocks/romannumerals1-blue",
+    "west": "davebuildingmod:blocks/romannumerals1-blue",
+    "particle": "davebuildingmod:blocks/romannumerals1-blue"
   }
 }

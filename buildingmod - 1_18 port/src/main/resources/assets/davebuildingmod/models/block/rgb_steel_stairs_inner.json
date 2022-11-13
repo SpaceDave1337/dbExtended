@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "davebuildingmod:blocks/rgb_steel",
+    "top": "davebuildingmod:blocks/rgb_steel",
+    "side": "davebuildingmod:blocks/rgb_steel"
+  }
+}

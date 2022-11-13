@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "steel_pillar_side",
+        "1": "steel_plating",
+        "2": "anvil",
+        "3": "black_steel"
+      },
+      "name": "default"
+    }
+  }
+}

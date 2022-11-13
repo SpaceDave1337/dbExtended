@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "davebuildingmod:block/laboratory_left_arrow_lime"
+    },
+    "facing=east": {
+      "model": "davebuildingmod:block/laboratory_left_arrow_lime",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "davebuildingmod:block/laboratory_left_arrow_lime",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "davebuildingmod:block/laboratory_left_arrow_lime",
+      "y": 270
+    }
+  }
+}

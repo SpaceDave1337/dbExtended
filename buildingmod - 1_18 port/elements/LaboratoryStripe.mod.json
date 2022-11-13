@@ -1,13 +1,13 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "laboratorywallstripe",
-    "textureTop": "laboratorywallstripe",
-    "textureLeft": "laboratorywallstripe",
-    "textureFront": "laboratorywallstripe",
-    "textureRight": "laboratorywallstripe",
-    "textureBack": "laboratorywallstripe",
+    "texture": "laboratorywallstripe-blue",
+    "textureTop": "laboratorywallstripe-blue",
+    "textureLeft": "laboratorywallstripe-blue",
+    "textureFront": "laboratorywallstripe-blue",
+    "textureRight": "laboratorywallstripe-blue",
+    "textureBack": "laboratorywallstripe-blue",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Laboratory Striped Block",
+    "name": "Blue Laboratory Striped Block",
     "specialInfo": [],
     "hardness": 5.0,
     "resistance": 6.0,

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_dye"
+    },
+    "2": {
+      "item": "minecraft:red_dye"
+    },
+    "4": {
+      "item": "davebuildingmod:laboratory_block"
+    },
+    "7": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "davebuildingmod:laboratory_roman_5_red",
+    "count": 2
+  }
+}

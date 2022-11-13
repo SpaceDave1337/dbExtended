@@ -35,7 +35,7 @@ public class ParticleGeneratorGuiScreen extends AbstractContainerScreen<Particle
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 200;
+		this.imageWidth = 176;
 		this.imageHeight = 194;
 	}
 
@@ -82,9 +82,9 @@ public class ParticleGeneratorGuiScreen extends AbstractContainerScreen<Particle
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Particle Card", 63, 57, -12829636);
-		this.font.draw(poseStack, "Y-Offset", 18, 21, -12829636);
-		this.font.draw(poseStack, "Size", 135, 21, -12829636);
+		this.font.draw(poseStack, "Particle Card", 51, 57, -12829636);
+		this.font.draw(poseStack, "Y-Offset", 15, 21, -12829636);
+		this.font.draw(poseStack, "Size", 114, 21, -12829636);
 	}
 
 	@Override
@@ -97,11 +97,11 @@ public class ParticleGeneratorGuiScreen extends AbstractContainerScreen<Particle
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		YOffset = new EditBox(this.font, this.leftPos + 18, this.topPos + 30, 45, 20, new TextComponent(""));
+		YOffset = new EditBox(this.font, this.leftPos + 15, this.topPos + 30, 45, 20, new TextComponent(""));
 		guistate.put("text:YOffset", YOffset);
 		YOffset.setMaxLength(32767);
 		this.addWidget(this.YOffset);
-		Size = new EditBox(this.font, this.leftPos + 135, this.topPos + 30, 45, 20, new TextComponent(""));
+		Size = new EditBox(this.font, this.leftPos + 114, this.topPos + 30, 45, 20, new TextComponent(""));
 		guistate.put("text:Size", Size);
 		Size.setMaxLength(32767);
 		this.addWidget(this.Size);

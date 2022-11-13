@@ -1,23 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "01",
-    "23"
-  ],
-  "key": {
-    "0": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "minecraft:lime_dye"
     },
-    "1": {
+    {
       "item": "minecraft:stone"
     },
-    "2": {
+    {
       "item": "minecraft:stone"
     },
-    "3": {
+    {
       "item": "minecraft:lime_dye"
     }
-  },
+  ],
   "result": {
     "item": "davebuildingmod:green_screen",
     "count": 4

@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "block",
   "definition": {
     "texture": "steel_seemless",
@@ -11,7 +11,7 @@
     "renderType": 2,
     "customModelName": "vent_lpieceup:default",
     "rotationMode": 1,
-    "enablePitch": false,
+    "enablePitch": true,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -42,7 +42,7 @@
         "subtract": true
       }
     ],
-    "name": "Vent L-Piece Up",
+    "name": "Vent L-Piece Horizontal",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 6.0,

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "davebuildingmod:blocks/rgb_steel_tank_top",
+    "up": "davebuildingmod:blocks/rgb_steel_tank_top",
+    "north": "davebuildingmod:blocks/rgb_steel_tank",
+    "east": "davebuildingmod:blocks/rgb_steel_tank",
+    "south": "davebuildingmod:blocks/rgb_steel_tank",
+    "west": "davebuildingmod:blocks/rgb_steel_tank",
+    "particle": "davebuildingmod:blocks/rgb_steel_tank_top"
+  }
+}

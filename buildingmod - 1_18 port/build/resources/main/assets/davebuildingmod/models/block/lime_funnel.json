@@ -1,0 +1,10 @@
+{
+  "parent": "davebuildingmod:custom/funnel",
+  "textures": {
+    "all": "davebuildingmod:blocks/lime_steel_port",
+    "particle": "davebuildingmod:blocks/lime_steel_port",
+    "0": "davebuildingmod:blocks/lime_steel",
+    "1": "davebuildingmod:blocks/lime_steel_port",
+    "missing": "davebuildingmod:blocks/lime_steel"
+  }
+}

@@ -29,7 +29,7 @@ public class ConfigSetupProcedure {
 	private static void execute(@Nullable Event event) {
 		File dbeconfig = new File("");
 		com.google.gson.JsonObject mainjsonobject = new com.google.gson.JsonObject();
-		dbeconfig = new File((FMLPaths.GAMEDIR.get().toString() + "/config/"), File.separator + "dbeconfig.json");
+		dbeconfig = new File((FMLPaths.GAMEDIR.get().toString() + "/config/"), File.separator + "dbe_v5_common.json");
 		if (!dbeconfig.exists()) {
 			try {
 				dbeconfig.getParentFile().mkdirs();
@@ -38,6 +38,7 @@ public class ConfigSetupProcedure {
 				exception.printStackTrace();
 			}
 			mainjsonobject.addProperty("craftable_steel", (true));
+			mainjsonobject.addProperty("particle_gen", (true));
 			{
 				Gson mainGSONBuilderVariable = new GsonBuilder().setPrettyPrinting().create();
 				try {

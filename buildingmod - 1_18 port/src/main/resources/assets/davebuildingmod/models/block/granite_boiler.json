@@ -1,0 +1,8 @@
+{
+  "parent": "davebuildingmod:custom/boiler",
+  "textures": {
+    "all": "davebuildingmod:blocks/copper_boiler",
+    "particle": "davebuildingmod:blocks/polished_granite",
+    "cover": "davebuildingmod:blocks/copper_boiler"
+  }
+}

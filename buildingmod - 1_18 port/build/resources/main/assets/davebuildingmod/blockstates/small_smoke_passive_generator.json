@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "davebuildingmod:block/small_smoke_passive_generator"
+    }
+  }
+}

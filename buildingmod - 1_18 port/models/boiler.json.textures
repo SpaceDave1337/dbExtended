@@ -251,6 +251,27 @@
         "particle": "zinc_tank"
       },
       "name": "zinc"
+    },
+    "granite": {
+      "map": {
+        "cover": "copper_boiler",
+        "particle": "polished_granite"
+      },
+      "name": "granite"
+    },
+    "diorite": {
+      "map": {
+        "cover": "white_boiler",
+        "particle": "polished_diorite"
+      },
+      "name": "diorite"
+    },
+    "rgb": {
+      "map": {
+        "cover": "rgb_boiler",
+        "particle": "rgb_steel_tank"
+      },
+      "name": "rgb"
     }
   }
 }

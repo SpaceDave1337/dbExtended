@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "davebuildingmod:advanced_circuit"
+    }
+  ],
+  "result": {
+    "item": "davebuildingmod:red_circuit_lava_bucket",
+    "count": 1
+  }
+}
